@@ -17,7 +17,7 @@ export default function Horoscope() {
 
     return (
         <div>
-            <h1>Horoscope</h1>
+            <h1>Today's Cancer Horoscope</h1>
             <p>{horoscope.description}</p>
         </div>
     )
