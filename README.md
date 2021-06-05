@@ -13,4 +13,4 @@ Creating a site about astrology in React.
 - Introduction page with background on astrology
 - Page about moon phases (API)
 - Horoscope page (API)
-- Tarot card reading page (API?)
+- Tarot card reading page? (API)
