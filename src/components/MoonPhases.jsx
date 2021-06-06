@@ -11,33 +11,32 @@ export default function MoonPhases() {
         const parsedData = await response.json();
         getMoonPhases(dispatch,parsedData.days.slice(0, 5))
     }
-    let moonPhase = ""
+
     const matchPictureWithMoonPhase = (phase) => {
-        if (phase === 0) {
-            moonPhase = "New Moon"
+        if (phase === "0") {
+            return <p>New Moon</p> 
         }
         if (phase > 0 && phase < 0.25) {
-            moonPhase = "Waxing Crescent"
+            return <p>Waxing Crescent</p>
         }
-        if (phase === 0.25) {
-            moonPhase = "First Quarter"
+        if (phase === "0.25") {
+            return <p>First Quarter</p>
         }
         if (phase > 0.25 && phase < 0.50) {
-            moonPhase = "Waxing Gibbous"
+            return <p>Waxing Gibbous</p>
         }
-        if (phase === 0.5) {
-            moonPhase = "Full Moon"
+        if (phase === "0.5") {
+            return <p>Full Moon</p>
         }
         if (phase > 0.5 && phase < 0.75) {
-            moonPhase = "Waning Gibbous"
+            return <p>Waning Gibbous</p>
         }
-        if (phase === 0.75) {
-            moonPhase = "Last Quarter"
+        if (phase === "0.75") {
+            return <p>Last Quarter</p>
         }
         if (phase > 0.75 && phase <= 1) {
-            moonPhase = "Waning Crescent"
+            return <p>Waning Crescent</p>
         }
-        return moonPhase
         }
 
     useEffect(() => {
@@ -48,7 +47,7 @@ export default function MoonPhases() {
     return (
         <div>
             <h1>Moon Phase for Today and Next Five Days</h1>
-            {moonPhases && moonPhases.length>0 && moonPhases.map((phase) => <div><p>{phase.moonphase}</p> <p>{moonPhase}</p></div>)}
+            {moonPhases && moonPhases.length>0 && moonPhases.map((phase) => <div><p>{phase.moonphase}</p> {matchPictureWithMoonPhase(`${phase.moonphase}`)}</div>)}
         </div>
     )
 }
