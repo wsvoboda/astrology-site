@@ -6,19 +6,36 @@ import {getHoroscope} from "../actions/horoscope-actions"
 export default function Horoscope() {
     const dispatch = useDispatch()
     const horoscope = useSelector(state=>state.horoscope)
-    const horoscopeCall = async () => {
-        const response = await fetch(`https://aztro.sameerkumar.website/?sign=cancer&day=today`,{method:"POST"})
+    const horoscopeCall = async (sign) => {
+        const response = await fetch(`https://aztro.sameerkumar.website/?sign=${sign}&day=today`,{method:"POST"})
         const parsedData = await response.json();
         getHoroscope(dispatch,parsedData)
     }
+    
     useEffect(() => {
-        horoscopeCall()
+        horoscopeCall("cancer")
     }, [])
 
     return (
         <div>
-            <h1>Today's Cancer Horoscope</h1>
+            <h1>Today's Horoscope</h1>
             <p>{horoscope.description}</p>
+            <p>You're compatible with {horoscope.compatibility} today.</p>
+            <p>Mood: {horoscope.mood}</p>
+            <p>Color: {horoscope.color}</p>
+            <p>Lucky Number: {horoscope.lucky_number}</p>
+            <button onClick={() => horoscopeCall("aquarius")}>Aquarius</button>
+            <button onClick={() => horoscopeCall("pisces")}>Pisces</button>
+            <button onClick={() => horoscopeCall("aries")}>Aries</button>
+            <button onClick={() => horoscopeCall("taurus")}>Taurus</button>
+            <button onClick={() => horoscopeCall("gemini")}>Gemini</button>
+            <button onClick={() => horoscopeCall("cancer")}>Cancer</button>
+            <button onClick={() => horoscopeCall("leo")}>Leo</button>
+            <button onClick={() => horoscopeCall("virgo")}>Virgo</button>
+            <button onClick={() => horoscopeCall("libra")}>Libra</button>
+            <button onClick={() => horoscopeCall("scorpio")}>Scorpio</button>
+            <button onClick={() => horoscopeCall("sagittarius")}>Sagittarius</button>
+            <button onClick={() => horoscopeCall("capricorn")}>Capricorn</button>
         </div>
     )
 }
