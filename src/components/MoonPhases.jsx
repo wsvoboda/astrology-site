@@ -5,7 +5,7 @@ import {getMoonPhases} from "../actions/moonPhase-actions"
 
 export default function MoonPhases() {
     const dispatch = useDispatch()
-    const moonPhases = useSelector(state=>state.moonPhases)
+    const moonPhases = useSelector((state)=>state.moonPhases)
     const moonPhaseCall = async () => {
         const response = await fetch(`https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Herndon,VA?unitGroup=us&key=${weatherAPIKey}&include=days&elements=datetime,moonphase,sunrise,sunset`)
         const parsedData = await response.json();

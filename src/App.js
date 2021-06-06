@@ -1,12 +1,10 @@
 import "./App.css";
-import Horoscope from "./components/Horoscope";
-import MoonPhases from "./components/MoonPhases";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <Horoscope />
-      <MoonPhases />
+      <Navbar />
     </div>
   );
 }
