@@ -9,7 +9,7 @@ export default function MoonPhases() {
     const moonPhaseCall = async () => {
         const response = await fetch(`https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Herndon,VA?unitGroup=us&key=${weatherAPIKey}&include=days&elements=datetime,moonphase,sunrise,sunset`)
         const parsedData = await response.json();
-        getMoonPhases(dispatch,parsedData)
+        getMoonPhases(dispatch,parsedData.days)
     }
     useEffect(() => {
         moonPhaseCall()
@@ -17,13 +17,7 @@ export default function MoonPhases() {
     return (
         <div>
             <h1>Today's Moon Phase</h1>
-            {moonPhases.days.map((phase) => {
-                return (
-                    <div>
-                        <p>{phase.moonphase}</p>
-                    </div>
-                )
-            })}
+            {moonPhases && moonPhases.length>0 && moonPhases.map((phase) => <p>{phase.moonphase}</p>)}
         </div>
     )
 }
