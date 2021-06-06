@@ -5,18 +5,20 @@ import {getTarotCards} from "../actions/tarot-actions"
 export default function Tarot() {
     const dispatch = useDispatch()
     const tarot = useSelector(state=>state.tarot)
-    const getCards = async () => {
+
+    const dealCards = async () => {
         const response = await fetch("tarot-images.json")
         const parsedData = await response.json();
-        getTarotCards(dispatch,parsedData.cards)
+        let shuffledCards = parsedData.cards.sort(()=>Math.random() - 0.5)
+        let dealtCards = shuffledCards.slice(0, 3)
+        getTarotCards(dispatch, dealtCards)
     }
-    useEffect(() => {
-        getCards()
-    }, [])
     
     return (
         <div>
             <h1>Tarot Card Reader</h1>
+            <h2>Deal</h2>
+            <button onClick={()=> dealCards()}>Deal Cards</button>
             {tarot && tarot.length>0 && tarot.map((card) => <p>{card.name}</p>)}
         </div>
     )
