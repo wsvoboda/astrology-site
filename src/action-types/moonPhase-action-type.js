@@ -1,0 +1,1 @@
+export const GET_MOONPHASES = "GET_MOONPHASES";
