@@ -7,7 +7,7 @@ export default function MoonPhases() {
     const dispatch = useDispatch()
     const moonPhases = useSelector((state)=>state.moonPhases)
     const moonPhaseCall = async () => {
-        const response = await fetch(`https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Herndon,VA?unitGroup=us&key=${weatherAPIKey}&include=days&elements=datetime,moonphase,sunrise,sunset`)
+        const response = await fetch(`https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Dallas,TX?unitGroup=us&key=${weatherAPIKey}&include=days&elements=datetime,moonphase,sunrise,sunset`)
         const parsedData = await response.json();
         getMoonPhases(dispatch,parsedData.days.slice(0, 5))
     }
