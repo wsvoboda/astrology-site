@@ -11,6 +11,48 @@ export default function MoonPhases() {
         const parsedData = await response.json();
         getMoonPhases(dispatch,parsedData.days.slice(0, 5))
     }
+    let today = new Date()
+    let month = today.getMonth()
+    let date = today.getDate()
+
+    const matchMonthWithNumber = (months, dates) => {
+        if (months === "0") {
+            return <h3>January {date}</h3> 
+        }
+        if (months === "1") {
+            return <h3>February {date}</h3> 
+        }
+        if (months === "2") {
+            return <h3>March {date}</h3> 
+        }
+        if (months === "3") {
+            return <h3>April {date}</h3> 
+        }
+        if (months === "4") {
+            return <h3>May {date}</h3> 
+        }
+        if (months === "5") {
+            return <h3>June {date}</h3> 
+        }
+        if (months === "6") {
+            return <h3>July {date}</h3> 
+        }
+        if (months === "7") {
+            return <h3>August {date}</h3> 
+        }
+        if (months === "8") {
+            return <h3>September {date}</h3> 
+        }
+        if (months === "9") {
+            return <h3>October {date}</h3> 
+        }
+        if (months === "10") {
+            return <h3>November {date}</h3> 
+        }
+        if (months === "11") {
+            return <h3>December {date}</h3> 
+        }
+        }
 
     const matchPictureWithMoonPhase = (phase) => {
         if (phase === "0") {
@@ -42,12 +84,13 @@ export default function MoonPhases() {
     useEffect(() => {
         moonPhaseCall()
         matchPictureWithMoonPhase(moonPhases)
+        matchMonthWithNumber(month, date)
     }, [])
 
     return (
         <div>
             <h1>Moon Phase for Today and Next Five Days</h1>
-            {moonPhases && moonPhases.length>0 && moonPhases.map((phase) => <div><p>{phase.moonphase}</p> {matchPictureWithMoonPhase(`${phase.moonphase}`)}</div>)}
+            {moonPhases && moonPhases.length>0 && moonPhases.map((phase) => <div>{matchMonthWithNumber(`${month}`, `${date}`)}<p>{phase.moonphase}</p>{matchPictureWithMoonPhase(`${phase.moonphase}`)}</div>)}
         </div>
     )
 }
