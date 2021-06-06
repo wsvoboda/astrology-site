@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import {useSelector, useDispatch} from "react-redux"
 import {getTarotCards} from "../actions/tarot-actions"
 
@@ -19,6 +19,9 @@ export default function Tarot() {
             <h1>Tarot Card Reader</h1>
             <h2>Deal</h2>
             <button onClick={()=> dealCards()}>Deal Cards</button>
+            {/* <h3>The Past</h3><p>{tarot[0].name}</p>
+            <h3>The Present</h3><p>{tarot[1].name}</p>
+            <h3>The Future</h3><p>{tarot[2].name}</p> */}
             {tarot && tarot.length>0 && tarot.map((card) => <p>{card.name}</p>)}
         </div>
     )
