@@ -42,7 +42,7 @@
 		"Numerology": "0 (off the scale; pure potential)",
 		"Elemental": "Air",
 		"Mythical/Spiritual": "Adam before the fall. Christ as a wandering holy madman. Deity wrapped in human flesh. The Holy Spirit.",
-      "Questions to Ask" : ["What would I do if I felt free to take a leap?","How willing am I to be vulnerable and open?","How might past experiences help in this new situation?"]       	
+      "Questions_to_Ask" : ["What would I do if I felt free to take a leap?","How willing am I to be vulnerable and open?","How might past experiences help in this new situation?"]       	
     },
     {
       "name": "The Magician",
@@ -81,7 +81,7 @@
 		"Hebrew Alphabet" : "Beth/House/2",
 		"Numerology" : "1 (origins, unity, seeds)",
 		"Elemental" : "The Sun/Mercury",		"Mythical/Spiritual" : "Thoth, the Egyptian god of wisdom, known to the Greeks as Hermes and to the Romans as Mercury. Christ working miracles. Brahma, the Creator.",
-		"Questions to Ask" : ["What am I empowered to do?","How might my abilities come into play?","To what extent am I making the most of my talents?"]
+		"Questions_to_Ask" : ["What am I empowered to do?","How might my abilities come into play?","To what extent am I making the most of my talents?"]
     },
     {
       "name": "The High Priestess",
@@ -124,7 +124,7 @@
       "Numerology" : "2 (division, debate, duality)",
       "Elemental" : "The Moon",
       "Mythical/Spiritual" : "The feminine aspect of divinity, particularity when expressed through virginity, as with the Virgin Mary or Isis.",
-	  "Questions to Ask" : ["What might a rebel against tradition do?","What isn't being said or revealed?","What could be achieved by observing and reflecting?"]
+	  "Questions_to_Ask" : ["What might a rebel against tradition do?","What isn't being said or revealed?","What could be achieved by observing and reflecting?"]
     },
     {
       "name": "The Empress",
@@ -168,7 +168,7 @@
       "Numerology" : "3 (expression, productivity, output)",
       "Elemental" : "Venus",
       "Mythical/Spiritual" : "Gaia, Mother Earth, Ishtar, DemeterÑmature, reproductive female divinity in every form. Also Aphrodite and Turan. ",
-	  "Questions to Ask" : ["What would a concerned and capable mother do?","What can I do that would emphasize growth?","How can I celebrate my own sensuality and sexuality?"]
+	  "Questions_to_Ask" : ["What would a concerned and capable mother do?","What can I do that would emphasize growth?","How can I celebrate my own sensuality and sexuality?"]
     },
     {
       "name": "The Emperor",
@@ -209,7 +209,7 @@
       "Numerology" : "4 (stability, equality, persistence)",
       "Elemental" : "Mars/Aries",
       "Mythical/Spiritual" : "Masculine gods, including the Hebrew God, the Christian God, Allah, and Zeus. Patriarchs (Abraham) and lawgivers (Moses). Vishnu, the Preserver.",
-	  "Questions to Ask" : ["How does the issue of control or regulation impact this situation?","What would a compassionate but strict father do?","What needs more control?"]
+	  "Questions_to_Ask" : ["How does the issue of control or regulation impact this situation?","What would a compassionate but strict father do?","What needs more control?"]
     },
     {
       "name": "The Hierophant",
@@ -252,7 +252,7 @@
       "Numerology" : "5 (instability, resistance, confrontation, evolution)",
       "Elemental" : "Taurus/Earth",
       "Mythical/Spiritual" : "The Christ, the Apostle Peter, Buddha, Mohammed. Popes, priests, and intercessors of every faith and tradition",
-	  "Questions to Ask" : ["What role might tradition or religion play in this situation?","Who authored the rules? Who enforces them? Why?","How might an experienced guide impact this situation?"]
+	  "Questions_to_Ask" : ["What role might tradition or religion play in this situation?","Who authored the rules? Who enforces them? Why?","How might an experienced guide impact this situation?"]
     },
     {
       "name": "The Lovers",
@@ -293,7 +293,7 @@
       "Numerology" : "6 (cooperation, collaboration, interaction)",
       "Elemental" : "Gemini",
       "Mythical/Spiritual" : "Obviously, Adam and Eve, who are depicted in RWS-influenced decks. Also Venus and Cupid, Aphrodite and Eros.",
-	  "Questions to Ask" : ["What guides my choices?","What is my heart leading me to do?","How might this decision transform me as a person?"]
+	  "Questions_to_Ask" : ["What guides my choices?","What is my heart leading me to do?","How might this decision transform me as a person?"]
     },
     {
       "name": "The Chariot",
@@ -333,7 +333,7 @@
       "Numerology" : "7 (imagination, inner work, psychology)",
       "Elemental" : "Cancer",
       "Mythical/Spiritual" : "Odysseus. Jason. The search for the Holy Grail. Christ's triumphal entry into Jerusalem.",
-	  "Questions to Ask" : ["To what extent have I arrived? What will my next challenge be?","How can I use past achievements to their best advantage?","What would the criteria for real and meaningful success be?"]
+	  "Questions_to_Ask" : ["To what extent have I arrived? What will my next challenge be?","How can I use past achievements to their best advantage?","What would the criteria for real and meaningful success be?"]
     },
     {
       "name": "Strength",
@@ -372,7 +372,7 @@
       "Numerology" : "8 (movement, work) or 11 = 1 + 1 = 2 (debate, duality)",
       "Elemental" : "Libra or Leo",
       "Mythical/Spiritual" : "Themis or Justitia. Ma'at. Solomon dividing a baby. The Sword of Damocles. The giving of the Ten Commandments.",
-	  "Questions to Ask" : ["To what extent is your life (or work) balanced?","How can you achieve greater objectivity?","What course of action would be fair to everyone concerned?"]
+	  "Questions_to_Ask" : ["To what extent is your life (or work) balanced?","How can you achieve greater objectivity?","What course of action would be fair to everyone concerned?"]
     },
     {
       "name": "The Hermit",
@@ -412,7 +412,7 @@
       "Numerology" : "9 (fullness, readiness, ripeness)",
       "Elemental" : "Virgo",
       "Mythical/Spiritual" : "The Christ, while fasting 40 days in the wilderness. Chronos, the god of time. Father Time. Hermes.",
-	  "Questions to Ask" : ["What would happen if I simply withdrew and took no action?","How can I get some perspective on the situation?","Who has walked this path before me? How can I enlist his or her help?"]
+	  "Questions_to_Ask" : ["What would happen if I simply withdrew and took no action?","How can I get some perspective on the situation?","Who has walked this path before me? How can I enlist his or her help?"]
     },
     {
       "name": "Wheel of Fortune",
@@ -453,7 +453,7 @@
       "Numerology" : "10 (finality, completion) and 10 = 1 + 0 = 1 (seed, opportunity)",
       "Elemental" : "Jupiter",
       "Mythical/Spiritual" : "The God in the Machine. Deus ex Machina. Clotho, Lachesis, and Atropos. Fortuna.",
-	  "Questions to Ask" : ["How does this challenge fit into a larger pattern?","What role does luck play in my circumstances?","What can I control? How should I know when to relinquish control?"]
+	  "Questions_to_Ask" : ["How does this challenge fit into a larger pattern?","What role does luck play in my circumstances?","What can I control? How should I know when to relinquish control?"]
     },
     {
       "name": "Justice",
@@ -494,7 +494,7 @@
       "Numerology" : "11 = 1 + 1 = 2 (debate, duality) or 8 (movement, outer work)",
       "Elemental" : "Leo or Libra",
       "Mythical/Spiritual" : "Samson. Hercules. Daniel in the lion's den. The sinless Christ.",
-	  "Questions to Ask" : ["How can I enhance my self-discipline?","What behaviors tempt me? How can I resist?","What instincts do I continue to struggle with today?"]
+	  "Questions_to_Ask" : ["How can I enhance my self-discipline?","What behaviors tempt me? How can I resist?","What instincts do I continue to struggle with today?"]
     },
     {
       "name": "The Hanged Man",
@@ -535,7 +535,7 @@
       "Numerology" : "12 = 1 + 2 = 3 (expression, productivity, output)",
       "Elemental" : "Water",
       "Mythical/Spiritual" : "The Crucified Christ. Isaac as a sacrifice. Prometheus bound. Jonah and the whale. Lazarus. Any hanged or sacrificed god. Judas.",
-	  "Questions to Ask" : ["How can I radically alter my perspective?","How might being stuck actually be a blessing in disguise?","How can I help myself see the glass as half full?"]
+	  "Questions_to_Ask" : ["How can I radically alter my perspective?","How might being stuck actually be a blessing in disguise?","How can I help myself see the glass as half full?"]
     },
     {
       "name": "Death",
@@ -576,7 +576,7 @@
       "Numerology" : "13 = 1 + 3 = 4 (stability, persistence)",
       "Elemental" : "Scorpio",
       "Mythical/Spiritual" : "Christ in the tomb. Hades. Hypnos. Thanatos. Stories of journeys into the underworld.",
-	  "Questions to Ask" : ["What needs to end?","How might an ending actually be a blessing in this situation?","What's next?"]
+	  "Questions_to_Ask" : ["What needs to end?","How might an ending actually be a blessing in this situation?","What's next?"]
     },
     {
       "name": "Temperance",
@@ -619,7 +619,7 @@
       "Numerology" : "14 = 1 + 4 = 5 (catalyst, instability, confrontation)",
       "Elemental" : "Sagittarius",
       "Mythical/Spiritual" : "The angel seen here may be the goddess Iris. By extension, priests, priesthoods, or the transfigured Christ.",
-	  "Questions to Ask" : ["How can I avoid extremes?","What does everyone involved have in common?","How might combining familiar things help me create something new?"]
+	  "Questions_to_Ask" : ["How can I avoid extremes?","What does everyone involved have in common?","How might combining familiar things help me create something new?"]
     },
     {
       "name": "The Devil",
@@ -661,7 +661,7 @@
       "Numerology" : "15 = 1 + 5 = 6 (adjustment, collaboration)",
       "Elemental" : "Capricorn",
       "Mythical/Spiritual" : "The Biblical Satan, certainly. Fallen angels, including Lucifer. Bacchus and Pan. Tempters and serpents of every stripe.",
-	  "Questions to Ask" : ["What enslaves me? How can I set myself free?","How can I re-evaluate the importance I assign to material things?","To what extent do my cravings define me?"]
+	  "Questions_to_Ask" : ["What enslaves me? How can I set myself free?","How can I re-evaluate the importance I assign to material things?","To what extent do my cravings define me?"]
     },
     {
       "name": "The Tower",
@@ -704,7 +704,7 @@
       "Numerology" : "16 = 1 + 6 = 7 (psychology, imagination, inner work)",
       "Elemental" : "Mars",
       "Mythical/Spiritual" : "The Tower of Babel. The destruction of Sodom and Gomorrah. Shiva's destructive dance. The lightning of Zeus and Thor.",
-	  "Questions to Ask" : ["How might the current situation dramatically alter my perspective?","How might this loss open the door for new growth?","What attitudes need to be struck down before I proceed?"]
+	  "Questions_to_Ask" : ["How might the current situation dramatically alter my perspective?","How might this loss open the door for new growth?","What attitudes need to be struck down before I proceed?"]
     },
     {
       "name": "The Star",
@@ -748,7 +748,7 @@
       "Numerology" : "17 = 1 + 7 = 8 (action, movement, swiftness)",
       "Elemental" : "Aquarius",
       "Mythical/Spiritual" : "The star that guided the Magi. Aphrodite. Venus. The Pleiades. Moses bringing forth water from the rock.",
-	  "Questions to Ask" : ["What would my higher power direct me to do?","How can I be less self-conscious and guarded?","How can I better attune myself to the abundance of life's blessings?"]
+	  "Questions_to_Ask" : ["What would my higher power direct me to do?","How can I be less self-conscious and guarded?","How can I better attune myself to the abundance of life's blessings?"]
     },
     {
       "name": "The Moon",
@@ -789,7 +789,7 @@
       "Numerology" : "18 = 1 + 8 = 9 (fullness, readiness, ripeness)",
       "Elemental" : "Pisces",
       "Mythical/Spiritual" : "Kali, the dark-skinned divine mother associated with time, the eternal night, and the female principle. Hecate, goddess of night and darkness, who, like Anubis, assists others in their travels to the underworld. ",
-	  "Questions to Ask" : ["How can I face my fears and move forward?","What helpers can serve me as guides through my personal darkness?","How can I deal with the unknown in healthy ways?"]
+	  "Questions_to_Ask" : ["How can I face my fears and move forward?","What helpers can serve me as guides through my personal darkness?","How can I deal with the unknown in healthy ways?"]
     },
     {
       "name": "The Sun",
@@ -829,7 +829,7 @@
       "Numerology" : "19 = 1 + 9 = 10 (completion, exhaustion) 1 + 0 = 1 (starting point, opportunity)",
       "Elemental" : "The Sun",
       "Mythical/Spiritual" : "God the Father. Sun gods, including Ra, Apollo, and Helios. The moment of baptism. Claiming a new faith as your own.",
-	  "Questions to Ask" : ["How can I take best advantage of the attention coming my way?","What are my highest spiritual goals?","How can I avoid being bedazzled by the energy swirling around me?"]
+	  "Questions_to_Ask" : ["How can I take best advantage of the attention coming my way?","What are my highest spiritual goals?","How can I avoid being bedazzled by the energy swirling around me?"]
     },
     {
       "name": "Judgement",
@@ -871,7 +871,7 @@
       "Numerology" : "20 = 2 + 0 = 2 (division, duality)",
       "Elemental" : "Fire",
       "Mythical/Spiritual" : "The resurrected Christ. The Last Judgment of Revelation. The phoenix, which rises to new life from its own ashes.",
-	  "Questions to Ask" : ["What is the main thing I need to realize about myself?","In what way might the universe be trying to get my attention?","If I were to reinvent myself, what would I become?"]
+	  "Questions_to_Ask" : ["What is the main thing I need to realize about myself?","In what way might the universe be trying to get my attention?","If I were to reinvent myself, what would I become?"]
     },
     {
       "name": "The World",
@@ -912,7 +912,7 @@
       "Numerology" : "21 = 2 + 1 = 3 (expression, result)",
       "Elemental" : "Saturn",
       "Mythical/Spiritual" : "The ascended Christ. The Buddha attaining enlightenment. The alpha and the omega. The completion of the alchemist's great work.",
-	  "Questions to Ask" : ["For me, what would having it all mean?","How aware am I of my own connectedness to the world around me?","What keeps me from having it all right now, today?"]
+	  "Questions_to_Ask" : ["For me, what would having it all mean?","How aware am I of my own connectedness to the world around me?","What keeps me from having it all right now, today?"]
     },
     {
       "name": "Ace of Cups",
@@ -952,7 +952,7 @@
 		"Numerology" : "1 (The Origin: the starting point, the seed, opportunity)",
       "Astrology" : "Cancer, Scorpio, Pisces",
       "Affirmation" : "\"I listen to the counsel of my heart.\"",
-	  "Questions to Ask" : ["What am I feeling right now?","How would I go about opening myself to spiritual guidance?","What motivates me the most - pleasure or pain? Why?"]
+	  "Questions_to_Ask" : ["What am I feeling right now?","How would I go about opening myself to spiritual guidance?","What motivates me the most - pleasure or pain? Why?"]
     },
     {
       "name": "Two of Cups",
@@ -993,7 +993,7 @@
 		"Numerology" : "2 (The Other: duality, division, debate)",
       "Astrology" : "Venus in Cancer",
       "Affirmation" : "\"I am attuned to what my heart truly desires.\"",
-	   "Questions to Ask" : ["How can I make sure that what I'm feeling is mutual?\",\"When was the last time I felt \"in love\" with someone or something?","What do you need in order to feel emotionally stable?"]
+	   "Questions_to_Ask" : ["How can I make sure that what I'm feeling is mutual?\",\"When was the last time I felt \"in love\" with someone or something?","What do you need in order to feel emotionally stable?"]
     },
     {
       "name": "Three of Cups",
@@ -1029,7 +1029,7 @@
 		"Numerology" : "3 (The Result: expression, productivity, output)",
       "Astrology" : "Mercury in Cancer",
       "Affirmation" : "\"I allow my actions to reflect my true emotions.\"",
-	  "Questions to Ask" : ["What's worth celebrating in my life?","How can I demonstrate my feelings in appropriate ways?","What can I do to show my partner how I really feel?"]
+	  "Questions_to_Ask" : ["What's worth celebrating in my life?","How can I demonstrate my feelings in appropriate ways?","What can I do to show my partner how I really feel?"]
     },
     {
       "name": "Four of Cups",
@@ -1068,7 +1068,7 @@
 		 "Numerology" : "4 (The Status Quo: stability, equality, persistence)",
       "Astrology" : "Moon in Cancer",
       "Affirmation" : "\"I appreciate what I've been given.\"",
-	  "Questions to Ask" : ["How can I use this \"downtime\" to my best advantage?","How can I show my partner that I don't take him or her for granted?","To what extent is my mood blinding me to new opportunities?"]
+	  "Questions_to_Ask" : ["How can I use this \"downtime\" to my best advantage?","How can I show my partner that I don't take him or her for granted?","To what extent is my mood blinding me to new opportunities?"]
     },
     {
       "name": "Five of Cups",
@@ -1111,7 +1111,7 @@
 		"Numerology" : "5 (The Catalyst: instability, resistance, confrontation)",
       "Astrology" : "Mars in Scorpio",
       "Affirmation" : "\"I learn from my losses and move on.\"",
-	  "Questions to Ask" : ["How do I tend to deal with loss?","What life lesson might I be learning now?","How can I shift my attention from the past to the future?"]
+	  "Questions_to_Ask" : ["How do I tend to deal with loss?","What life lesson might I be learning now?","How can I shift my attention from the past to the future?"]
     },
     {
       "name": "Six of Cups",
@@ -1150,7 +1150,7 @@
 		"Numerology" : "6 (The Adjustment: cooperation, collaboration, interaction)",
       "Astrology" : "Sun in Scorpio",
       "Affirmation" : "\"I freely give myself to others, expecting nothing in return.\"",
-	   "Questions to Ask" : ["What gifts do I possess? How freely do I give them?","How can I practice unconditional giving?","How would things change if I became a more charitable person?"]
+	   "Questions_to_Ask" : ["What gifts do I possess? How freely do I give them?","How can I practice unconditional giving?","How would things change if I became a more charitable person?"]
     },
     {
       "name": "Seven of Cups",
@@ -1187,7 +1187,7 @@
 		"Numerology" : "7 (The Motive: imagination, inner work, psychology)",
       "Astrology" : "Venus in Scorpio",
       "Affirmation" : "\"I use inner vision as a tool for growth.\"",
-	  "Questions to Ask" : ["What do you want most? What do you fear most? How are these related?","How is your imagination working for you? Against you?","How might a clearer personal vision help you choose a single cup from the many available?"]
+	  "Questions_to_Ask" : ["What do you want most? What do you fear most? How are these related?","How is your imagination working for you? Against you?","How might a clearer personal vision help you choose a single cup from the many available?"]
     },
     {
       "name": "Eight of Cups",
@@ -1230,7 +1230,7 @@
 		"Numerology" : "8 (The Action: movement, outer work, swiftness)",
       "Astrology" : "Saturn in Pisces",
       "Affirmation" : "\"I am always open to opportunities for growth.\"",
-	  "Questions to Ask" : ["What do I need to leave behind once and for all?","If I left in search of \"more,\" what would I be looking for, exactly?","How might a retreat enhance my perspective?"]
+	  "Questions_to_Ask" : ["What do I need to leave behind once and for all?","If I left in search of \"more,\" what would I be looking for, exactly?","How might a retreat enhance my perspective?"]
     },
     {
       "name": "Nine of Cups",
@@ -1269,7 +1269,7 @@
 		"Numerology" : "9 (The Completion: fullness, readiness, ripeness)",
       "Astrology" : "Jupiter in Pisces",
       "Affirmation" : "\"I have everything I need to be happy.\"",
-	   "Questions to Ask" : ["What is true happiness?","If I could have anything, what would I have?","What is my attitude toward luxury? Do I deserve it?"]
+	   "Questions_to_Ask" : ["What is true happiness?","If I could have anything, what would I have?","What is my attitude toward luxury? Do I deserve it?"]
     },
     {
       "name": "Ten of Cups",
@@ -1305,7 +1305,7 @@
 		"Numerology" : "10 (The End: finality, completion, exhaustion)",
       "Astrology" : "Mars in Pisces",
       "Affirmation" : "\"I take time to appreciate what I've been given.\"",
-	  "Questions to Ask" : ["Who gets to define what \"joy\" consists of?","What course of action is available when you feel overwhelmed?","How might vows or promises play a role in achieving a greater level of joy in your life?"]
+	  "Questions_to_Ask" : ["Who gets to define what \"joy\" consists of?","What course of action is available when you feel overwhelmed?","How might vows or promises play a role in achieving a greater level of joy in your life?"]
     },
     {
       "name": "Page of Cups",
@@ -1343,7 +1343,7 @@
             },
 		 "Elemental" : "Earth of Water.",
       "Affirmation" : "\"I am ready to embrace love and Spirit.\"",
-	  "Questions to Ask" : ["How worried are you that others will see you as foolish or inexperienced?","To what extent can you be honest about your lack of experience in love and faith?","How can you maintain enthusiasm over time?"]
+	  "Questions_to_Ask" : ["How worried are you that others will see you as foolish or inexperienced?","To what extent can you be honest about your lack of experience in love and faith?","How can you maintain enthusiasm over time?"]
     },
     {
       "name": "Knight of Cups",
@@ -1379,7 +1379,7 @@
             },
 		"Elemental" : "Air of Water.",
       "Affirmation" : "\"I translate my passions into actions.\"",
-	   "Questions to Ask" : ["How prone to emotional extremes are you?","What's the difference in driving passion and blind zeal?","How can you inspire others without inciting a riot?"]
+	   "Questions_to_Ask" : ["How prone to emotional extremes are you?","What's the difference in driving passion and blind zeal?","How can you inspire others without inciting a riot?"]
     },
     {
       "name": "Queen of Cups",
@@ -1415,7 +1415,7 @@
             },
 		"Elemental" : "Water of Water.",
       "Affirmation" : "\"I choose to be enabled, not disabled, by my strong emotions.\"",
-	  "Questions to Ask" : ["How do I handle strong emotions?","To what extent am I a victim of my own feelings?","How can I move from reflection to action?"]
+	  "Questions_to_Ask" : ["How do I handle strong emotions?","To what extent am I a victim of my own feelings?","How can I move from reflection to action?"]
     },
     {
       "name": "King of Cups",
@@ -1450,7 +1450,7 @@
             },
 		"Elemental" : "Fire of Water.",
       "Affirmation" : "\"I strive to be stable and fair-minded.\"",
-	  "Questions to Ask" : ["What wise person could be consulted for good advice?","How can I make sure I'm being as objective and fair as possible?","To what extent am I capable of keeping a \"stiff upper lip?\""]
+	  "Questions_to_Ask" : ["What wise person could be consulted for good advice?","How can I make sure I'm being as objective and fair as possible?","To what extent am I capable of keeping a \"stiff upper lip?\""]
     },
     {
       "name": "Ace of Swords",
@@ -1490,7 +1490,7 @@
 		"Numerology" : "1 (The Origin: the starting point, the seed, opportunity)",
       "Astrology" : "Libra, Aquarius, Gemini",
       "Affirmation" : "\"I take the time to think things through.\"",
-	  "Questions to Ask" : ["If I made my decision purely based on reason and logic, what would my decision be?","What do I think about my own problem-solving ability?","Who can supply me with the pure and simple facts?"]
+	  "Questions_to_Ask" : ["If I made my decision purely based on reason and logic, what would my decision be?","What do I think about my own problem-solving ability?","Who can supply me with the pure and simple facts?"]
     },
     {
       "name": "Two of Swords",
@@ -1528,7 +1528,7 @@
 		"Numerology" : "2 (The Other: duality, division, debate)",
       "Astrology" : "Moon in Libra",
       "Affirmation" : "\"I strive to see all sides of every issue.\"",
-	  "Questions to Ask" : ["What information do I need to get past this impasse?","How can I get past being defensive and see the facts?","What viewpoints, other than my own, play a role in this situation?"]
+	  "Questions_to_Ask" : ["What information do I need to get past this impasse?","How can I get past being defensive and see the facts?","What viewpoints, other than my own, play a role in this situation?"]
     },
     {
       "name": "Three of Swords",
@@ -1566,7 +1566,7 @@
 		 "Numerology" : "3 (The Result: expression, productivity, output)",
       "Astrology" : "Saturn in Libra",
       "Affirmation" : "\"I learn from failures and setbacks.\"",
-	   "Questions to Ask" : ["How can I get past my depression?","To what extent are my emotions a matter of choice?","How can I learn from the mistakes of the past?"]
+	   "Questions_to_Ask" : ["How can I get past my depression?","To what extent are my emotions a matter of choice?","How can I learn from the mistakes of the past?"]
     },
     {
       "name": "Four of Swords",
@@ -1602,7 +1602,7 @@
 		"Numerology" : "4 (The Status Quo: stability, equality, persistence)",
       "Astrology" : "Jupiter in Libra",
       "Affirmation" : "\"I think before taking action.\"",
-	  "Questions to Ask" : ["How long has it been since you deliberately took a \"time out?\"","How difficult is it for you to meditate?","What would happen if you simply refused to make a decision today?"]
+	  "Questions_to_Ask" : ["How long has it been since you deliberately took a \"time out?\"","How difficult is it for you to meditate?","What would happen if you simply refused to make a decision today?"]
     },
     {
       "name": "Five of Swords",
@@ -1643,7 +1643,7 @@
 		"Numerology" : "5 (The Catalyst: instability, resistance, confrontation)",
       "Astrology" : "Venus in Aquarius",
       "Affirmation" : "\"Even as I care for myself, I am mindful of the needs of others.\"",
-	  "Questions to Ask" : ["How do I behave when I win? What does that say about me?","How can I do what's necessary without making others feel defeated?","What's the difference between selfish action and acting in my own best interest?"]
+	  "Questions_to_Ask" : ["How do I behave when I win? What does that say about me?","How can I do what's necessary without making others feel defeated?","What's the difference between selfish action and acting in my own best interest?"]
     },
     {
       "name": "Six of Swords",
@@ -1682,7 +1682,7 @@
 		"Numerology" : "6 (The Adjustment: cooperation, collaboration, interaction)",
       "Astrology" : "Mercury in Aquarius",
       "Affirmation" : "\"I keep an open mind.\"",
-	   "Questions to Ask" : ["What assumptions govern my thinking?","How willing am I to lend aid to others? To request it when I need it?","How prepared am I to deal with change? With unexpected outcomes?"]
+	   "Questions_to_Ask" : ["What assumptions govern my thinking?","How willing am I to lend aid to others? To request it when I need it?","How prepared am I to deal with change? With unexpected outcomes?"]
     },
     {
       "name": "Seven of Swords",
@@ -1719,7 +1719,7 @@
 		"Numerology" : "7 (The Motive: imagination, inner work, psychology)",
       "Astrology" : "Moon in Aquarius",
       "Affirmation" : "\"I hold myself to the highest ethical standards.\"",
-	  "Questions to Ask" : ["What assumptions am I making?","How well-defined is my sense of ethics?","How should I respond when I know others are breaking the rules?"]
+	  "Questions_to_Ask" : ["What assumptions am I making?","How well-defined is my sense of ethics?","How should I respond when I know others are breaking the rules?"]
     },
     {
       "name": "Eight of Swords",
@@ -1761,7 +1761,7 @@
 		 "Numerology" : "8 (The Action: movement, outer work, swiftness)",
       "Astrology" : "Jupiter in Gemini",
       "Affirmation" : "\"I know my own limits.\"",
-	  "Questions to Ask" : ["Who's empowered to cut through the red tape?","What, exactly, are the obstacles? What resources, exactly, are needed to move them?","To what extent is your powerlessness a matter of attitude?"]
+	  "Questions_to_Ask" : ["Who's empowered to cut through the red tape?","What, exactly, are the obstacles? What resources, exactly, are needed to move them?","To what extent is your powerlessness a matter of attitude?"]
     },
     {
       "name": "Nine of Swords",
@@ -1801,7 +1801,7 @@
 		"Numerology" : "9 (The Completion: fullness, readiness, ripeness)",
       "Astrology" : "Mars in Gemini",
       "Affirmation" : "\"I do not worry about what I cannot control.\"",
-	   "Questions to Ask" : ["What role does worry play in your current situation?","To what other ends might you devote the energy you're giving to anxiety?","How can you know when it's time to stop thinking and start acting?"]
+	   "Questions_to_Ask" : ["What role does worry play in your current situation?","To what other ends might you devote the energy you're giving to anxiety?","How can you know when it's time to stop thinking and start acting?"]
     },
     {
       "name": "Ten of Swords",
@@ -1842,7 +1842,7 @@
 		"Numerology" : "10 (The End: finality, completion, exhaustion)",
       "Astrology" : "Sun in Gemini",
       "Affirmation" : "\"When my limits are exceeded, I take action on my own behalf.\"",
-	  "Questions to Ask" : ["What are the signs that the time for debate is over?","How can you tell when interest has given way to obsession?","When your own limits are reached, where can you turn for aid?"]
+	  "Questions_to_Ask" : ["What are the signs that the time for debate is over?","How can you tell when interest has given way to obsession?","When your own limits are reached, where can you turn for aid?"]
     },
     {
       "name": "Page of Swords",
@@ -1880,7 +1880,7 @@
             },
 		"Elemental" : "Earth of Air.",
       "Affirmation" : "\"I am ready to make good decisions.\"",
-	   "Questions to Ask" : ["How comfortable are you with revealing your own ignorance?","What are the marks of a good student?","To what extent are you open to new information?"]
+	   "Questions_to_Ask" : ["How comfortable are you with revealing your own ignorance?","What are the marks of a good student?","To what extent are you open to new information?"]
     },
     {
       "name": "Knight of Swords",
@@ -1923,7 +1923,7 @@
             },
 		"Elemental" : "Air of Air.",
       "Affirmation" : "\"I temper my insights with tact.\"",
-	  "Questions to Ask" : ["What do I really need to know?","To what extent have I investigated the facts behind my situation?","How can I share what I know without alienating others?"]
+	  "Questions_to_Ask" : ["What do I really need to know?","To what extent have I investigated the facts behind my situation?","How can I share what I know without alienating others?"]
     },
     {
       "name": "Queen of Swords",
@@ -1965,7 +1965,7 @@
             },
 		"Elemental" : "Water of Air.",
       "Affirmation" : "\"I make the truth easier to hear.\"",
-	  "Questions to Ask" : ["What do I have a knack for? How might my special gift prove useful now?","To what extent am I capable of saying what needs to be said?","What is the best possible way to say what I want to say?"]
+	  "Questions_to_Ask" : ["What do I have a knack for? How might my special gift prove useful now?","To what extent am I capable of saying what needs to be said?","What is the best possible way to say what I want to say?"]
     },
     {
       "name": "King of Swords",
@@ -2003,7 +2003,7 @@
             },
 		"Elemental" : "Fire of Air.",
       "Affirmation" : "\"My word is my bond.\"",
-	  "Questions to Ask" : ["What would your decision be if you had to render a binding verdict right now?","How comfortable are you saying exactly what you mean? How often do you temper what you have to say for fear of offending others?","If you were to ask others, \"What's my area of expertise?\" what would they say?"]
+	  "Questions_to_Ask" : ["What would your decision be if you had to render a binding verdict right now?","How comfortable are you saying exactly what you mean? How often do you temper what you have to say for fear of offending others?","If you were to ask others, \"What's my area of expertise?\" what would they say?"]
     },
     {
       "name": "Ace of Wands",
@@ -2045,7 +2045,7 @@
 		"Numerology" : "1 (The Origin: the starting point, the seed, opportunity)",
       "Astrology" : "Aries, Leo, Sagittarius",
 	  "Affirmation" : "\"I jump at the opportunity to pursue my heart's desire.\"",
-	  "Questions to Ask" : ["What do I really want, more than anything else?","What happens if I let this opportunity pass me by?","How clearly have I defined my directions, values, and goals?"]
+	  "Questions_to_Ask" : ["What do I really want, more than anything else?","What happens if I let this opportunity pass me by?","How clearly have I defined my directions, values, and goals?"]
     },
     {
       "name": "Two of Wands",
@@ -2083,7 +2083,7 @@
 	"Numerology" : "2 (The Other: division, debate, duality)",
       "Astrology" : "Mars in Aries",
 	  "Affirmation" : "\"With my goals in mind, I make confident choices.\"",
-	  "Questions to Ask" : ["In a conflict, how do you decide who wins?","What values govern your decision-making process?","What choice will you make if you make no choice at all?"]
+	  "Questions_to_Ask" : ["In a conflict, how do you decide who wins?","What values govern your decision-making process?","What choice will you make if you make no choice at all?"]
     },
     {
       "name": "Three of Wands",
@@ -2121,7 +2121,7 @@
 		"Numerology" : "3 (The Result: expression, productivity, output)",
       "Astrology" : "Sun in Aries",
 	  "Affirmation" : "\"I take the steps necessary to put my plans in action.\"",
-	  "Questions to Ask" : ["How can you make a habit of breaking your habits?","How can you be a decisive leader in this circumstance?","What's your action plan for the next week, month, year, or decade?"]
+	  "Questions_to_Ask" : ["How can you make a habit of breaking your habits?","How can you be a decisive leader in this circumstance?","What's your action plan for the next week, month, year, or decade?"]
     },
     {
       "name": "Four of Wands",
@@ -2159,7 +2159,7 @@
 		"Numerology" : "4 (The Status Quo: stability, equality, persistence)",
       "Astrology" : "Venus in Aries",
 	  "Affirmation" : "\"My contributions are worthy of celebration.\"",
-	  "Questions to Ask" : ["To what extent am I doing my part?","What kind of recognition would be most meaningful?","How might a celebration now impact community morale?"]
+	  "Questions_to_Ask" : ["To what extent am I doing my part?","What kind of recognition would be most meaningful?","How might a celebration now impact community morale?"]
     },
     {
       "name": "Five of Wands",
@@ -2196,7 +2196,7 @@
 		"Numerology" : "5 (The Catalyst: instability, resistance, confrontation)",
       "Astrology" : "Saturn in Leo",
 	  "Affirmation" : "\"I can express dissent in constructive ways.\"",
-	  "Questions to Ask" : ["To what extent is your current issue worth fighting for?","What alternatives are there to outright conflict?","What happens in a \"fair fight?\" How can you keep this fight fair?"]
+	  "Questions_to_Ask" : ["To what extent is your current issue worth fighting for?","What alternatives are there to outright conflict?","What happens in a \"fair fight?\" How can you keep this fight fair?"]
     },
     {
       "name": "Six of Wands",
@@ -2237,7 +2237,7 @@
 		"Numerology" : "6 (The Adjustment: cooperation, collaboration, interaction)",
       "Astrology" : "Jupiter in Leo",
 	  "Affirmation" : "\"I value sincere praise.\"",
-	   "Questions to Ask" : ["What kind of recognition do I crave? Why?","How freely do I praise the achievements of others?","What happens when the parade is over?"]
+	   "Questions_to_Ask" : ["What kind of recognition do I crave? Why?","How freely do I praise the achievements of others?","What happens when the parade is over?"]
     },
     {
       "name": "Seven of Wands",
@@ -2274,7 +2274,7 @@
 		"Numerology" : "7 (The Motive: imagination, inner work, psychology)",
       "Astrology" : "Mars in Leo",
 	  "Affirmation" : "\"I am willing to take a stand for what I believe in.\"",
-	  "Questions to Ask" : ["When do you feel most threatened? When do you get defensive?","How capable are you of defending yourself?","What kinds of beliefs are worth defending?"]
+	  "Questions_to_Ask" : ["When do you feel most threatened? When do you get defensive?","How capable are you of defending yourself?","What kinds of beliefs are worth defending?"]
     },
     {
       "name": "Eight of Wands",
@@ -2314,7 +2314,7 @@
 		"Numerology" : "8 (The Action: movement, outer work, swiftness)",
       "Astrology" : "Mercury in Sagittarius",
 	  "Affirmation" : "\"I adapt quickly to change.\"",
-	  "Questions to Ask" : ["How quickly to you adapt to change?","What would your response be to overwhelming, sudden change?","What changes are on your horizon? How well have you prepared for them?"]
+	  "Questions_to_Ask" : ["How quickly to you adapt to change?","What would your response be to overwhelming, sudden change?","What changes are on your horizon? How well have you prepared for them?"]
     },
     {
       "name": "Nine of Wands",
@@ -2356,7 +2356,7 @@
 		"Numerology" : "9 (The Completion: fullness, readiness, ripeness)",
       "Astrology" : "Moon in Sagittarius",
 	  "Affirmation" : "\"When the going gets tough, I stay the course.\"",
-	  "Questions to Ask" : ["How do you cope when things get really tough?","When you get low, what encourages you to go on?","At what point should you be able to let this situation go?"]
+	  "Questions_to_Ask" : ["How do you cope when things get really tough?","When you get low, what encourages you to go on?","At what point should you be able to let this situation go?"]
     },
     {
       "name": "Ten of Wands",
@@ -2393,7 +2393,7 @@
 		"Numerology" : "10 (The End: finality, completion, exhaustion)",
       "Astrology" : "Saturn in Sagittarius",
 	  "Affirmation" : "\"I respect my own limits.\"",
-	  "Questions to Ask" : ["How will you know when you reach the end of your rope?","How easily do you say no to new projects and requests?","What projects could you delegate...or eliminate?"]
+	  "Questions_to_Ask" : ["How will you know when you reach the end of your rope?","How easily do you say no to new projects and requests?","What projects could you delegate...or eliminate?"]
     },
     {
       "name": "Page of Wands",
@@ -2429,7 +2429,7 @@
             },
 	"Elemental" : "Earth of Fire.",
       "Affirmation" : "\"I can do this.\"",
-	  "Questions to Ask" : ["How easily do you admit your own inexperience?","How can you be a better student or employee?","What qualities would make a total beginner's voyage of discovery easier?"]
+	  "Questions_to_Ask" : ["How easily do you admit your own inexperience?","How can you be a better student or employee?","What qualities would make a total beginner's voyage of discovery easier?"]
     },
     {
       "name": "Knight of Wands",
@@ -2467,7 +2467,7 @@
             },
 		"Elemental" : "Air of Fire.",
       "Affirmation" : "\"I can lead the way to success.\"",
-	  "Questions to Ask" : ["To what extent have you defined your ultimate goal?","What's the fastest way to get the job done? Is this necessarily the best way?","How long has it been since you looked back to see if others really are following your lead?"]
+	  "Questions_to_Ask" : ["To what extent have you defined your ultimate goal?","What's the fastest way to get the job done? Is this necessarily the best way?","How long has it been since you looked back to see if others really are following your lead?"]
     },
     {
       "name": "Queen of Wands",
@@ -2501,7 +2501,7 @@
             },
 		"Elemental" : "Water of Fire.",
       "Affirmation" : "\"I use my influence to promote unity.\"",
-	  "Questions to Ask" : ["How attentive am I?","How can I draw people's attention to what we have in common?","To what extent am I able to convince people to do what I want them to do?"]
+	  "Questions_to_Ask" : ["How attentive am I?","How can I draw people's attention to what we have in common?","To what extent am I able to convince people to do what I want them to do?"]
     },
     {
       "name": "King of Wands",
@@ -2535,7 +2535,7 @@
             },
 		"Elemental" : "Fire of Fire",
       "Affirmation" : "\"I use my authority and experience to get things done faster.\"",
-	  "Questions to Ask" : ["How confident a leader am I?","How can I project more confidence?","How can I offer my expertise in ways that inspire others to follow me?"]
+	  "Questions_to_Ask" : ["How confident a leader am I?","How can I project more confidence?","How can I offer my expertise in ways that inspire others to follow me?"]
     },
     {
       "name": "Ace of Pentacles",
@@ -2573,7 +2573,7 @@
 		"Numerology" : "1 (The Origin: the starting point, the seed, opportunity)",
       "Astrology" : "Capricorn, Taurus, Virgo",
       "Affirmation" : "\"I am open to and thankful for my blessings.\"",
-	  "Questions to Ask" : ["If I made my decision based solely on practical concerns, what would my decision be?","What resources are available to me?","What will be the physical and financial impact of my decisions?"]
+	  "Questions_to_Ask" : ["If I made my decision based solely on practical concerns, what would my decision be?","What resources are available to me?","What will be the physical and financial impact of my decisions?"]
     },
     {
       "name": "Two of Pentacles",
@@ -2612,7 +2612,7 @@
 		"Numerology" : "2 (The Other: duality, division, debate)",
       "Astrology" : "Jupiter in Capricorn",
       "Affirmation" : "\"Before taking action, I consider costs.\"",
-	  "Questions to Ask" : ["What values govern my decisions?","How willing am I to sacrifice a little pleasure now in order to have more pleasure later on?","Given my current situation, which course of action will give me more of what I really need?"]
+	  "Questions_to_Ask" : ["What values govern my decisions?","How willing am I to sacrifice a little pleasure now in order to have more pleasure later on?","Given my current situation, which course of action will give me more of what I really need?"]
     },
     {
       "name": "Three of Pentacles",
@@ -2652,7 +2652,7 @@
 		"Numerology" : "3 (The Result: expression, productivity, output)",
       "Astrology" : "Mars in Capricorn",
       "Affirmation" : "\"My work produces results.\"",
-	  "Questions to Ask" : ["How can I get more done?","What's expected of me? How large a role do I play in controlling those expectations?","What's been agreed to? How well has that agreement been followed?"]
+	  "Questions_to_Ask" : ["How can I get more done?","What's expected of me? How large a role do I play in controlling those expectations?","What's been agreed to? How well has that agreement been followed?"]
     },
     {
       "name": "Four of Pentacles",
@@ -2691,7 +2691,7 @@
 		"Numerology" : "4 (The Status Quo: stability, equality, persistence)",
       "Astrology" : "Sun in Capricorn",
       "Affirmation" : "\"I use my resources wisely.\"",
-	  "Questions to Ask" : ["What factors determine how conservative or generous you are?","What kinds of things must be preserved at all costs?","When is greediness or stinginess a good trait to have? When might generosity work against you?"]
+	  "Questions_to_Ask" : ["What factors determine how conservative or generous you are?","What kinds of things must be preserved at all costs?","When is greediness or stinginess a good trait to have? When might generosity work against you?"]
     },
     {
       "name": "Five of Pentacles",
@@ -2731,7 +2731,7 @@
 		"Numerology" : "5 (The Catalyst: instability, resistance, confrontation)",
       "Astrology" : "Mercury in Taurus",
       "Affirmation" : "\"I have faith that what I need will appear.\"",
-	  "Questions to Ask" : ["What critical resources do I lack?","What people or groups would come to my aid if I asked?","How might an impoverished spirit be impacting my physical or financial condition?"]
+	  "Questions_to_Ask" : ["What critical resources do I lack?","What people or groups would come to my aid if I asked?","How might an impoverished spirit be impacting my physical or financial condition?"]
     },
     {
       "name": "Six of Pentacles",
@@ -2771,7 +2771,7 @@
 		"Numerology" : "6 (The Adjustment: cooperation, collaboration, interaction)",
       "Astrology" : "Moon in Taurus",
       "Affirmation" : "\"Knowing I will receive more, I share my resources freely.\"",
-	  "Questions to Ask" : ["How do I feel about charity? About giving it? About receiving it?","How can I know if I'm treating others fairly?","What could I give that no one else can?"]
+	  "Questions_to_Ask" : ["How do I feel about charity? About giving it? About receiving it?","How can I know if I'm treating others fairly?","What could I give that no one else can?"]
     },
     {
       "name": "Seven of Pentacles",
@@ -2810,7 +2810,7 @@
 		"Numerology" : "7 (The Motive: imagination, inner work, psychology)",
       "Astrology" : "Saturn in Taurus",
       "Affirmation" : "\"To stay on target, I measure my progress.\"",
-	  "Questions to Ask" : ["To what extent have I fulfilled my own expectations?","What are the terms of success?","How can I be happier with the progress I've made?"]
+	  "Questions_to_Ask" : ["To what extent have I fulfilled my own expectations?","What are the terms of success?","How can I be happier with the progress I've made?"]
     },
     {
       "name": "Eight of Pentacles",
@@ -2851,7 +2851,7 @@
 		"Numerology" : "8 (The Action: movement, outer work, swiftness)",
       "Astrology" : "Sun in Virgo",
       "Affirmation" : "\"I give myself wholeheartedly to the task of the moment.\"",
-	   "Questions to Ask" : ["How long has it been since you were \"lost in your work?\"","How can you improve your level of dedication and focus?","What work do you do best? What about that work appeals to you?"]
+	   "Questions_to_Ask" : ["How long has it been since you were \"lost in your work?\"","How can you improve your level of dedication and focus?","What work do you do best? What about that work appeals to you?"]
     },
     {
       "name": "Nine of Pentacles",
@@ -2888,7 +2888,7 @@
 		"Numerology" : "9 (The Completion: fullness, readiness, ripeness)",
       "Astrology" : "Venus in Virgo",
       "Affirmation" : "\"I know enough to be confident in my decisions.\"",
-	  "Questions to Ask" : ["If you could not have what you want, how would you make do?","Could you make a complex task easier by breaking it down into smaller steps?","How patient are you during the learning process? With yourself? With others?"]
+	  "Questions_to_Ask" : ["If you could not have what you want, how would you make do?","Could you make a complex task easier by breaking it down into smaller steps?","How patient are you during the learning process? With yourself? With others?"]
     },
     {
       "name": "Ten of Pentacles",
@@ -2926,7 +2926,7 @@
 		"Numerology" : "10 (The End: finality, completion, exhaustion)",
       "Astrology" : "Mercury in Virgo",
       "Affirmation" : "\"I keep physical and financial matters in perspective.\"",
-	  "Questions to Ask" : ["How much stuff do I really need?","How do I feel about wealth and abundance? How do I define these terms?","How might shedding some possessions open room for growth?"]
+	  "Questions_to_Ask" : ["How much stuff do I really need?","How do I feel about wealth and abundance? How do I define these terms?","How might shedding some possessions open room for growth?"]
     },
     {
       "name": "Page of Pentacles",
@@ -2964,7 +2964,7 @@
             },
 		"Elemental" : "Earth of Earth.",
       "Affirmation" : "\"I am physically and financially responsible.\"",
-	  "Questions to Ask" : ["How can you get more financial or sexual experience without risking your livelihood or health?","How might hands-on learning play a role in your situation?","What's the most practical choice you could make?"]
+	  "Questions_to_Ask" : ["How can you get more financial or sexual experience without risking your livelihood or health?","How might hands-on learning play a role in your situation?","What's the most practical choice you could make?"]
     },
     {
       "name": "Knight of Pentacles",
@@ -3005,7 +3005,7 @@
             },
 		"Elemental" : "Air of Earth.",
       "Affirmation" : "\"I temper my actions with cautious optimism.\"",
-	  "Questions to Ask" : ["What's the difference between caution and fear?","How can I evaluate the practicality of my own ideas and methods?","How realistic are my goals?"]
+	  "Questions_to_Ask" : ["What's the difference between caution and fear?","How can I evaluate the practicality of my own ideas and methods?","How realistic are my goals?"]
     },
     {
       "name": "Queen of Pentacles",
@@ -3042,7 +3042,7 @@
             },
 		"Elemental" : "Water of Earth.",
       "Affirmation" : "\"I relish the best this world has to offer.\"",
-	  "Questions to Ask" : ["How do I define luxury?","To what extent am I capable of reveling in sensual pleasure?","What would I have to give up in order to \"have it all?\""]
+	  "Questions_to_Ask" : ["How do I define luxury?","To what extent am I capable of reveling in sensual pleasure?","What would I have to give up in order to \"have it all?\""]
     },
     {
       "name": "King of Pentacles",
@@ -3080,7 +3080,7 @@
             },
 		"Elemental" : "Fire of Earth.",
       "Affirmation" : "\"I embody confidence and fairness.\"",
-	  "Questions to Ask" : ["How can you handle expenses with greater confidence and maturity?","How dependable are you? How dependable would others say you are?","To what extent is a conservative viewpoint valuable? At what point does it become more of a burden than a blessing?"]
+	  "Questions_to_Ask" : ["How can you handle expenses with greater confidence and maturity?","How dependable are you? How dependable would others say you are?","To what extent is a conservative viewpoint valuable? At what point does it become more of a burden than a blessing?"]
     }
   ]
 }

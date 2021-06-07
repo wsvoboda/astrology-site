@@ -91,3 +91,8 @@
   height: 360px;
   width: 211px;
 }
+
+.one-card {
+  width: 25%;
+  margin: 20px;
+}
