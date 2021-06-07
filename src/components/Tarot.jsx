@@ -22,7 +22,7 @@ export default function Tarot() {
             {/* <h3>The Past</h3><p>{tarot[0].name}</p>
             <h3>The Present</h3><p>{tarot[1].name}</p>
             <h3>The Future</h3><p>{tarot[2].name}</p> */}
-            {tarot && tarot.length>0 && tarot.map((card) => <p>{card.name}</p>)}
+            {tarot && tarot.length>0 && tarot.map((card) => <div><img src={process.env.PUBLIC_URL + `/cards/${card.img}`}  alt="tarot-card"/><p>{card.name}</p></div>)}
         </div>
     )
 }

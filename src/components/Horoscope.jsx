@@ -38,29 +38,41 @@ export default function Horoscope() {
             <p>Color: {horoscope.color}</p>
             <p>Lucky Number: {horoscope.lucky_number}</p>
             <div className="all-zodiac-buttons">
-            <div className="zodiac-button"><button onClick={() => horoscopeCall("aquarius")}><img src={aquarius} alt="zodiac"/><p className="dates">Jan 20<br></br>-<br></br>Feb 18</p></button>
+            <div className="zodiac-button">
+                <button onClick={() => horoscopeCall("aquarius")}><img src={aquarius} alt="zodiac"/><p className="dates">Jan 20<br></br>-<br></br>Feb 18</p></button>
             </div>
-            <div className="zodiac-button"><button onClick={() => horoscopeCall("pisces")}><img src={pisces} alt="zodiac"/><p className="dates">Feb 19<br></br>-<br></br>Mar 20</p></button>
+            <div className="zodiac-button">
+                <button onClick={() => horoscopeCall("pisces")}><img src={pisces} alt="zodiac"/><p className="dates">Feb 19<br></br>-<br></br>Mar 20</p></button>
             </div>
-            <div className="zodiac-button"><button onClick={() => horoscopeCall("aries")}><img src={aries} alt="zodiac"/><p className="dates">Mar 21<br></br>-<br></br>Apr 20</p></button>
+            <div className="zodiac-button">
+                <button onClick={() => horoscopeCall("aries")}><img src={aries} alt="zodiac"/><p className="dates">Mar 21<br></br>-<br></br>Apr 20</p></button>
             </div>
-            <div className="zodiac-button"><button onClick={() => horoscopeCall("taurus")}><img src={taurus} alt="zodiac"/><p className="dates">Apr 21<br></br>-<br></br>May 20</p></button>
+            <div className="zodiac-button">
+                <button onClick={() => horoscopeCall("taurus")}><img src={taurus} alt="zodiac"/><p className="dates">Apr 21<br></br>-<br></br>May 20</p></button>
             </div>
-            <div className="zodiac-button"><button onClick={() => horoscopeCall("gemini")}><img src={gemini} alt="zodiac"/><p className="dates">May 21<br></br>-<br></br>Jun 21</p></button>
+            <div className="zodiac-button">
+                <button onClick={() => horoscopeCall("gemini")}><img src={gemini} alt="zodiac"/><p className="dates">May 21<br></br>-<br></br>Jun 21</p></button>
             </div>
-            <div className="zodiac-button"><button onClick={() => horoscopeCall("cancer")}><img src={cancer} alt="zodiac"/><p className="dates">Jun 22<br></br>-<br></br>Jul 22</p></button>
+            <div className="zodiac-button">
+                <button onClick={() => horoscopeCall("cancer")}><img src={cancer} alt="zodiac"/><p className="dates">Jun 22<br></br>-<br></br>Jul 22</p></button>
             </div>
-            <div className="zodiac-button"><button onClick={() => horoscopeCall("leo")}><img src={leo} alt="zodiac"/><p className="dates">Jul 23<br></br>-<br></br>Aug 22</p></button>
+            <div className="zodiac-button">
+                <button onClick={() => horoscopeCall("leo")}><img src={leo} alt="zodiac"/><p className="dates">Jul 23<br></br>-<br></br>Aug 22</p></button>
             </div>
-            <div className="zodiac-button"><button onClick={() => horoscopeCall("virgo")}><img src={virgo} alt="zodiac"/><p className="dates">Aug 23<br></br>-<br></br>Sep 22</p></button>
+            <div className="zodiac-button">
+                <button onClick={() => horoscopeCall("virgo")}><img src={virgo} alt="zodiac"/><p className="dates">Aug 23<br></br>-<br></br>Sep 22</p></button>
             </div>
-            <div className="zodiac-button"><button onClick={() => horoscopeCall("libra")}><img src={libra} alt="zodiac"/><p className="dates">Sep 23<br></br>-<br></br>Oct 22</p></button>
+            <div className="zodiac-button">
+                <button onClick={() => horoscopeCall("libra")}><img src={libra} alt="zodiac"/><p className="dates">Sep 23<br></br>-<br></br>Oct 22</p></button>
             </div>
-            <div className="zodiac-button"><button onClick={() => horoscopeCall("scorpio")}><img src={scorpio} alt="zodiac"/><p className="dates">Oct 23<br></br>-<br></br>Nov 22</p></button>
+            <div className="zodiac-button">
+                <button onClick={() => horoscopeCall("scorpio")}><img src={scorpio} alt="zodiac"/><p className="dates">Oct 23<br></br>-<br></br>Nov 22</p></button>
             </div>
-            <div className="zodiac-button-sag"><button onClick={() => horoscopeCall("sagittarius")}><img id="sagittarius" src={sagittarius} alt="zodiac-sag"/><p className="dates-sag">Nov 23<br></br>-<br></br>Dec 21</p></button>
+            <div className="zodiac-button-sag">
+                <button onClick={() => horoscopeCall("sagittarius")}><img id="sagittarius" src={sagittarius} alt="zodiac-sag"/><p className="dates-sag">Nov 23<br></br>-<br></br>Dec 21</p></button>
             </div>
-            <div className="zodiac-button"><button onClick={() => horoscopeCall("capricorn")}><img src={capricorn} alt="zodiac"/><p className="dates">Dec 22<br></br>-<br></br>Jan 19</p></button>
+            <div className="zodiac-button">
+                <button onClick={() => horoscopeCall("capricorn")}><img src={capricorn} alt="zodiac"/><p className="dates">Dec 22<br></br>-<br></br>Jan 19</p></button>
             </div>
             </div>
         </div>
