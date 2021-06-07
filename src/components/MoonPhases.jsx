@@ -2,6 +2,14 @@ import React, {useEffect} from 'react'
 import {useSelector, useDispatch} from "react-redux"
 import {weatherAPIKey} from "../API.js"
 import {getMoonPhases} from "../actions/moonPhase-actions"
+import firstquarter from "../assets/moonphases/firstquarter.png"
+import lastquarter from "../assets/moonphases/lastquarter.png"
+import full from "../assets/moonphases/full.png"
+import newmoon from "../assets/moonphases/newmoon.png"
+import waningcrescent from "../assets/moonphases/waningcrescent.png"
+import waninggibbous from "../assets/moonphases/waninggibbous.png"
+import waxingcrescent from "../assets/moonphases/waxingcrescent.png"
+import waxinggibbous from "../assets/moonphases/waxinggibbous.png"
 
 export default function MoonPhases() {
     const dispatch = useDispatch()
@@ -27,28 +35,28 @@ export default function MoonPhases() {
 
     const matchPictureWithMoonPhase = (phase) => {
         if (phase === "0") {
-            return <p>New Moon</p> 
+            return <div><img src={newmoon} alt="moonpic"/><p>New Moon</p></div> 
         }
         if (phase > 0 && phase < 0.25) {
-            return <p>Waxing Crescent</p>
+            return <div><img src={waxingcrescent} alt="moonpic"/><p>Waxing Crescent</p></div> 
         }
         if (phase === "0.25") {
-            return <p>First Quarter</p>
+            return <div><img src={firstquarter} alt="moonpic"/><p>First Quarter</p></div> 
         }
         if (phase > 0.25 && phase < 0.50) {
-            return <p>Waxing Gibbous</p>
+            return <div><img src={waxinggibbous} alt="moonpic"/><p>Waxing Gibbous</p></div> 
         }
         if (phase === "0.5") {
-            return <p>Full Moon</p>
+            return <div><img src={full} alt="moonpic"/><p>Full Moon</p></div> 
         }
         if (phase > 0.5 && phase < 0.75) {
-            return <p>Waning Gibbous</p>
+            return <div><img src={waninggibbous} alt="moonpic"/><p>Waning Gibbous</p></div> 
         }
         if (phase === "0.75") {
-            return <p>Last Quarter</p>
+            return <div><img src={lastquarter} alt="moonpic"/><p>Last Quarter</p></div> 
         }
         if (phase > 0.75 && phase <= 1) {
-            return <p>Waning Crescent</p>
+            return <div><img src={waningcrescent} alt="moonpic"/><p>Waning Crescent</p></div> 
         }
         }
 
@@ -59,10 +67,9 @@ export default function MoonPhases() {
 
     return (
         <div>
-            <h1>Moon Phase for Today and Next Five Days</h1>
+            <h1>Moon Phase for Today and Next Four Days</h1>
             {moonPhases && moonPhases.length>0 && moonPhases.map((phase, index) => 
             <div>
-                <p>{phase.moonphase}</p>
                 {matchPictureWithMoonPhase(`${phase.moonphase}`)}
                 <h3>{todayPlus5Days[`${index}`]}</h3>
             </div>
