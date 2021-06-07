@@ -5,7 +5,7 @@ const initialState = [{}];
 const horoscope = (state = initialState, action) => {
   switch (action.type) {
     case GET_HOROSCOPE:
-      return (state = action.payload);
+      return (state = [action.payload, action.sign]);
     default:
       return state;
   }

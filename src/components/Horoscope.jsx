@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import {useSelector, useDispatch} from "react-redux"
 import {getHoroscope} from "../actions/horoscope-actions"
 import "../App.css";
@@ -14,6 +14,7 @@ import sagittarius from "../assets/zodiac/sagittarius.png"
 import scorpio from "../assets/zodiac/scorpio.png"
 import taurus from "../assets/zodiac/taurus.png"
 import virgo from "../assets/zodiac/virgo.png"
+import HoroscopeReading from "../components/HoroscopeReading"
 
 
 export default function Horoscope() {
@@ -22,21 +23,10 @@ export default function Horoscope() {
     const horoscopeCall = async (sign) => {
         const response = await fetch(`https://aztro.sameerkumar.website/?sign=${sign}&day=today`,{method:"POST"})
         const parsedData = await response.json();
-        getHoroscope(dispatch,parsedData)
+        getHoroscope(dispatch, parsedData, sign)
     }
-    
-    useEffect(() => {
-        horoscopeCall("cancer")
-    }, [])
-
     return (
         <div className="horoscope">
-            <h1>Today's Horoscope</h1>
-            <p>{horoscope.description}</p>
-            <p>You're compatible with {horoscope.compatibility} today.</p>
-            <p>Mood: {horoscope.mood}</p>
-            <p>Color: {horoscope.color}</p>
-            <p>Lucky Number: {horoscope.lucky_number}</p>
             <div className="all-zodiac-buttons">
             <div className="zodiac-button">
                 <button onClick={() => horoscopeCall("aquarius")}><img src={aquarius} alt="zodiac"/><p className="dates">Jan 20<br></br>-<br></br>Feb 18</p></button>
@@ -75,6 +65,7 @@ export default function Horoscope() {
                 <button onClick={() => horoscopeCall("capricorn")}><img src={capricorn} alt="zodiac"/><p className="dates">Dec 22<br></br>-<br></br>Jan 19</p></button>
             </div>
             </div>
+            {horoscope[0].color ? <HoroscopeReading horoscope={horoscope}/> : <p></p>}
         </div>
     )
 }
