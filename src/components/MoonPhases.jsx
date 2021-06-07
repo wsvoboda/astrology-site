@@ -71,6 +71,7 @@ export default function MoonPhases() {
             <h1>Moon Phase for Today and Next Four Days</h1>
             {moonPhases && moonPhases.length>0 && moonPhases.map((phase, index) => 
             <div>
+                
                 {matchPictureWithMoonPhase(`${phase.moonphase}`)}
                 <h3>{todayPlus5Days[`${index}`]}</h3>
             </div>
