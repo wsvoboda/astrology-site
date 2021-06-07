@@ -25,3 +25,58 @@
   background-color: transparent;
   border: none;
 }
+
+.zodiac-button {
+  position: relative;
+  height: 120px;
+  width: 100px;
+  margin: 10px;
+}
+
+.dates {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  right: 0;
+  align-items: center;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.zodiac-button:hover .dates {
+  visibility: visible;
+  opacity: 1;
+}
+
+.zodiac-button-sag {
+  position: relative;
+  height: 120px;
+  width: 120px;
+  margin: 10px;
+}
+
+.dates-sag {
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  right: 0;
+  align-items: center;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.zodiac-button-sag:hover .dates-sag {
+  visibility: visible;
+  opacity: 1;
+}
+
+.all-zodiac-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
