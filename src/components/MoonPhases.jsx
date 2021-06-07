@@ -2,6 +2,7 @@ import React, {useEffect} from 'react'
 import {useSelector, useDispatch} from "react-redux"
 import {weatherAPIKey} from "../API.js"
 import {getMoonPhases} from "../actions/moonPhase-actions"
+import "../App.css";
 import firstquarter from "../assets/moonphases/firstquarter.png"
 import lastquarter from "../assets/moonphases/lastquarter.png"
 import full from "../assets/moonphases/full.png"
@@ -66,7 +67,7 @@ export default function MoonPhases() {
     }, [])
 
     return (
-        <div>
+        <div className="moon">
             <h1>Moon Phase for Today and Next Four Days</h1>
             {moonPhases && moonPhases.length>0 && moonPhases.map((phase, index) => 
             <div>

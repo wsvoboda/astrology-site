@@ -5,3 +5,8 @@
 .navbar a {
   margin: 0 10px;
 }
+
+.moon img {
+  height: 150px;
+  width: 150px;
+}
