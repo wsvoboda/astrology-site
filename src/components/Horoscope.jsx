@@ -1,6 +1,19 @@
 import React, {useEffect} from 'react'
 import {useSelector, useDispatch} from "react-redux"
 import {getHoroscope} from "../actions/horoscope-actions"
+import "../App.css";
+import aquarius from "../assets/zodiac/aquarius.png"
+import aries from "../assets/zodiac/aries.png"
+import cancer from "../assets/zodiac/cancer.png"
+import capricorn from "../assets/zodiac/capricorn.png"
+import gemini from "../assets/zodiac/gemini.png"
+import leo from "../assets/zodiac/leo.png"
+import libra from "../assets/zodiac/libra.png"
+import pisces from "../assets/zodiac/pisces.png"
+import sagittarius from "../assets/zodiac/sagittarius.png"
+import scorpio from "../assets/zodiac/scorpio.png"
+import taurus from "../assets/zodiac/taurus.png"
+import virgo from "../assets/zodiac/virgo.png"
 
 
 export default function Horoscope() {
@@ -17,25 +30,25 @@ export default function Horoscope() {
     }, [])
 
     return (
-        <div>
+        <div className="horoscope">
             <h1>Today's Horoscope</h1>
             <p>{horoscope.description}</p>
             <p>You're compatible with {horoscope.compatibility} today.</p>
             <p>Mood: {horoscope.mood}</p>
             <p>Color: {horoscope.color}</p>
             <p>Lucky Number: {horoscope.lucky_number}</p>
-            <button onClick={() => horoscopeCall("aquarius")}>Aquarius</button>
-            <button onClick={() => horoscopeCall("pisces")}>Pisces</button>
-            <button onClick={() => horoscopeCall("aries")}>Aries</button>
-            <button onClick={() => horoscopeCall("taurus")}>Taurus</button>
-            <button onClick={() => horoscopeCall("gemini")}>Gemini</button>
-            <button onClick={() => horoscopeCall("cancer")}>Cancer</button>
-            <button onClick={() => horoscopeCall("leo")}>Leo</button>
-            <button onClick={() => horoscopeCall("virgo")}>Virgo</button>
-            <button onClick={() => horoscopeCall("libra")}>Libra</button>
-            <button onClick={() => horoscopeCall("scorpio")}>Scorpio</button>
-            <button onClick={() => horoscopeCall("sagittarius")}>Sagittarius</button>
-            <button onClick={() => horoscopeCall("capricorn")}>Capricorn</button>
+            <button onClick={() => horoscopeCall("aquarius")}><img src={aquarius} alt="zodiac"/></button>
+            <button onClick={() => horoscopeCall("pisces")}><img src={pisces} alt="zodiac"/></button>
+            <button onClick={() => horoscopeCall("aries")}><img src={aries} alt="zodiac"/></button>
+            <button onClick={() => horoscopeCall("taurus")}><img src={taurus} alt="zodiac"/></button>
+            <button onClick={() => horoscopeCall("gemini")}><img src={gemini} alt="zodiac"/></button>
+            <button onClick={() => horoscopeCall("cancer")}><img src={cancer} alt="zodiac"/></button>
+            <button onClick={() => horoscopeCall("leo")}><img src={leo} alt="zodiac"/></button>
+            <button onClick={() => horoscopeCall("virgo")}><img src={virgo} alt="zodiac"/></button>
+            <button onClick={() => horoscopeCall("libra")}><img src={libra} alt="zodiac"/></button>
+            <button onClick={() => horoscopeCall("scorpio")}><img src={scorpio} alt="zodiac"/></button>
+            <button onClick={() => horoscopeCall("sagittarius")}><img src={sagittarius} alt="zodiac"/></button>
+            <button onClick={() => horoscopeCall("capricorn")}><img src={capricorn} alt="zodiac"/></button>
         </div>
     )
 }
