@@ -1,6 +1,7 @@
 import React from 'react'
 import {useSelector, useDispatch} from "react-redux"
 import {getTarotCards} from "../actions/tarot-actions"
+import "../App.css"
 
 export default function Tarot() {
     const dispatch = useDispatch()
@@ -22,7 +23,8 @@ export default function Tarot() {
             {/* <h3>The Past</h3><p>{tarot[0].name}</p>
             <h3>The Present</h3><p>{tarot[1].name}</p>
             <h3>The Future</h3><p>{tarot[2].name}</p> */}
-            {tarot && tarot.length>0 && tarot.map((card) => <div><img src={process.env.PUBLIC_URL + `/cards/${card.img}`}  alt="tarot-card"/><p>{card.name}</p></div>)}
+            <div className="dealt-cards">
+            {tarot && tarot.length>0 && tarot.map((card) => <div><img src={process.env.PUBLIC_URL + `/cards/${card.img}`}  alt="tarot-card"/><p>{card.name}</p></div>)}</div>
         </div>
     )
 }
