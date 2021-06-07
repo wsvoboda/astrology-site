@@ -47,7 +47,7 @@ export default function Horoscope() {
             <button onClick={() => horoscopeCall("virgo")}><img src={virgo} alt="zodiac"/></button>
             <button onClick={() => horoscopeCall("libra")}><img src={libra} alt="zodiac"/></button>
             <button onClick={() => horoscopeCall("scorpio")}><img src={scorpio} alt="zodiac"/></button>
-            <button onClick={() => horoscopeCall("sagittarius")}><img src={sagittarius} alt="zodiac"/></button>
+            <button onClick={() => horoscopeCall("sagittarius")}><img id="sagittarius" src={sagittarius} alt="zodiac"/></button>
             <button onClick={() => horoscopeCall("capricorn")}><img src={capricorn} alt="zodiac"/></button>
         </div>
     )

@@ -16,6 +16,11 @@
   width: 100px;
 }
 
+#sagittarius {
+  height: 120px;
+  width: 120px;
+}
+
 .horoscope button {
   background-color: transparent;
   border: none;
