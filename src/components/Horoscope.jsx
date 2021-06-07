@@ -27,6 +27,7 @@ export default function Horoscope() {
     }
     return (
         <div className="horoscope">
+            <h1>Click Your Sign to Get Today's Horoscope</h1>
             <div className="all-zodiac-buttons">
             <div className="zodiac-button">
                 <button onClick={() => horoscopeCall("aquarius")}><img src={aquarius} alt="zodiac"/><p className="dates">Jan 20<br></br>-<br></br>Feb 18</p></button>

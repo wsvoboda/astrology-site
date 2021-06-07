@@ -69,13 +69,13 @@ export default function MoonPhases() {
     return (
         <div className="moon">
             <h1>Moon Phase for Today and Next Four Days</h1>
+            <div  className="moon-forecast">
             {moonPhases && moonPhases.length>0 && moonPhases.map((phase, index) => 
-            <div>
-                
+            <div className="one-phase">
                 {matchPictureWithMoonPhase(`${phase.moonphase}`)}
                 <h3>{todayPlus5Days[`${index}`]}</h3>
             </div>
-            )}
+            )}</div>
         </div>
     )
 }

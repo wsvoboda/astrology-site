@@ -96,3 +96,14 @@
   width: 25%;
   margin: 20px;
 }
+
+.moon-forecast {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.one-phase {
+  margin: 10px;
+}
