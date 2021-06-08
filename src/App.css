@@ -107,3 +107,8 @@
 .one-phase {
   margin: 10px;
 }
+
+.definitions-accordian {
+  display: flex;
+  justify-content: center;
+}

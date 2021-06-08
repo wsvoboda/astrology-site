@@ -30,7 +30,7 @@ export default function HoroscopeReading({horoscope}) {
     let upperCasedSignName = signName.charAt(0).toUpperCase() + signName.slice(1)
     return (
         <div>
-             <Card className={classes.root} variant="outlined">
+      <Card className={classes.root} variant="outlined">
       <CardContent>
         <Typography className={classes.title} color="textSecondary" gutterBottom>
         Today's {upperCasedSignName} Horoscope
@@ -50,9 +50,8 @@ export default function HoroscopeReading({horoscope}) {
         <Typography className={classes.pos} color="textSecondary">
         Compatibility {bull} {horoscope[0].compatibility}
         </Typography>
-        
       </CardContent>
-    </Card>
+      </Card>
         </div>
     )
 }

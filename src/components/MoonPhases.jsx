@@ -11,6 +11,27 @@ import waningcrescent from "../assets/moonphases/waningcrescent.png"
 import waninggibbous from "../assets/moonphases/waninggibbous.png"
 import waxingcrescent from "../assets/moonphases/waxingcrescent.png"
 import waxinggibbous from "../assets/moonphases/waxinggibbous.png"
+import { makeStyles } from '@material-ui/core/styles';
+import Accordion from '@material-ui/core/Accordion';
+import AccordionDetails from '@material-ui/core/AccordionDetails';
+import AccordionSummary from '@material-ui/core/AccordionSummary';
+import Typography from '@material-ui/core/Typography';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+
+const useStyles = makeStyles((theme) => ({
+    root: {
+      width: '50%',
+    },
+    heading: {
+      fontSize: theme.typography.pxToRem(15),
+      flexBasis: '33.33%',
+      flexShrink: 0,
+    },
+    secondaryHeading: {
+      fontSize: theme.typography.pxToRem(15),
+      color: theme.palette.text.secondary,
+    },
+  }));
 
 export default function MoonPhases() {
     const dispatch = useDispatch()
@@ -20,6 +41,12 @@ export default function MoonPhases() {
         const parsedData = await response.json();
         getMoonPhases(dispatch,parsedData.days.slice(0, 5))
     }
+    const classes = useStyles();
+    const [expanded, setExpanded] = React.useState(false);
+
+    const handleChange = (panel) => (event, isExpanded) => {
+    setExpanded(isExpanded ? panel : false);
+    };
 
     let todayPlus0 = new Date()
     todayPlus0.setDate(todayPlus0.getDate() + 0)
@@ -77,30 +104,130 @@ export default function MoonPhases() {
             </div>
             )}</div>
             <h1>What the Phases Mean</h1>
-            <h1>New Moon</h1>
-            <h2>New Beginnings</h2>
-            <p>This is where it all begins. This is the best time to acknowledge goals. Write a to do list! Bring ideas to consciousness. BUT! Wait until the First Quarter Moon Phase to take action.</p>
-            <h1>Waxing Crescent</h1>
-            <h2>The Energy is Building</h2>
-            <p>The moon's light is increasing and it's building its form. Gather energies to help you on your way. Bring new things, people, and relationships into your life.</p>
-            <h1>First Quarter</h1>
-            <h2>Gaining Momentum</h2>
-            <p>Take action on your goals. Focus on accelerating the progress of your projects. Make forward strides. Catch onto the growing power of the moon.</p>
-            <h1>Waxing Gibbous</h1>
-            <h2>The Last Push</h2>
-            <p>There are only three days left before the full moon! Add to what you have been building the last few weeks. The time has almost arrived for fruition and maximum energy.</p>
-            <h1>Full Moon</h1>
-            <h2>The Celebration</h2>
-            <p>This is what you've been waiting for. You are naturally accelerated. Energy is flowing! Give thanks to what you have accomplished. Emotions are heightened.</p>
-            <h1>Waning Gibbous</h1>
-            <h2>Time to Let Go</h2>
-            <p>The moon's light is decreasing.  This is the time to let go, release, retire. Take some time for introspection. Remove things from your life that are no longer serving you. Do not start new projects.</p>
-            <h1>Last Quarter</h1>
-            <h2>Winding Down</h2>
-            <p>Tie up loose ends and file things away from your projects. During this moon phase, you're self-aware and energized to break negative patterns.</p>
-            <h1>Waning Crescent</h1>
-            <h2>Relax, Rest, and Retreat</h2>
-            <p>Perfect time to meditate, contemplate, and wind down. Let go and look inward. This is the best time to schedule major operations, waxing, or hair removal. There will be less blood loss and recuperation will be supported by the upcoming waxing moon.</p>
+            <div className="definitions-accordian">
+            <div className={classes.root}>
+      <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1bh-content"
+          id="panel1bh-header"
+        >
+          <Typography className={classes.heading}>New Moon</Typography>
+          <Typography className={classes.secondaryHeading}>New Beginnings</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          This is where it all begins. This is the best time to acknowledge goals. Write a to do list! Bring ideas to consciousness. BUT! Wait until the First Quarter Moon Phase to take action.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2bh-content"
+          id="panel2bh-header"
+        >
+          <Typography className={classes.heading}>Waxing Crescent</Typography>
+          <Typography className={classes.secondaryHeading}>
+          The Energy is Building
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          The moon's light is increasing and it's building its form. Gather energies to help you on your way. Bring new things, people, and relationships into your life.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel3bh-content"
+          id="panel3bh-header"
+        >
+          <Typography className={classes.heading}>First Quarter</Typography>
+          <Typography className={classes.secondaryHeading}>
+          Gaining Momentum
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          Take action on your goals. Focus on accelerating the progress of your projects. Make forward strides. Catch onto the growing power of the moon.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel4bh-content"
+          id="panel4bh-header"
+        >
+          <Typography className={classes.heading}>Waxing Gibbous</Typography>
+          <Typography className={classes.secondaryHeading}>The Last Push</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          There are only three days left before the full moon! Add to what you have been building the last few weeks. The time has almost arrived for fruition and maximum energy.
+          </Typography>
+        </AccordionDetails>
+      </Accordion><Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel5bh-content"
+          id="panel5bh-header"
+        >
+          <Typography className={classes.heading}>Full Moon</Typography>
+          <Typography className={classes.secondaryHeading}>The Celebration</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          This is what you've been waiting for. You are naturally accelerated. Energy is flowing! Give thanks to what you have accomplished. Emotions are heightened.
+          </Typography>
+        </AccordionDetails>
+      </Accordion><Accordion expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel6bh-content"
+          id="panel6bh-header"
+        >
+          <Typography className={classes.heading}>Waning Gibbous</Typography>
+          <Typography className={classes.secondaryHeading}>Time to Let Go</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          The moon's light is decreasing.  This is the time to let go, release, retire. Take some time for introspection. Remove things from your life that are no longer serving you. Do not start new projects.
+          </Typography>
+        </AccordionDetails>
+      </Accordion><Accordion expanded={expanded === 'panel7'} onChange={handleChange('panel7')}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel7bh-content"
+          id="panel7bh-header"
+        >
+          <Typography className={classes.heading}>Last Quarter</Typography>
+          <Typography className={classes.secondaryHeading}>Winding Down</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          Tie up loose ends and file things away from your projects. During this moon phase, you're self-aware and energized to break negative patterns.
+          </Typography>
+        </AccordionDetails>
+      </Accordion><Accordion expanded={expanded === 'panel8'} onChange={handleChange('panel8')}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel8bh-content"
+          id="panel8bh-header"
+        >
+          <Typography className={classes.heading}>Waning Crescent</Typography>
+          <Typography className={classes.secondaryHeading}>Relax, Rest, and Retreat</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          Perfect time to meditate, contemplate, and wind down. Let go and look inward. This is the best time to schedule major operations, waxing, or hair removal. There will be less blood loss and recuperation will be supported by the upcoming waxing moon.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      </div>
+    </div>
         </div>
     )
 }
