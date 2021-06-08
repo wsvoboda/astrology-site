@@ -46,7 +46,9 @@ export default function Horoscope() {
             </div>
             <div className="zodiac-button">
                 <button onClick={() => horoscopeCall("cancer")}><img src={cancer} alt="zodiac"/><p className="dates">Jun 22<br></br>-<br></br>Jul 22</p></button>
-            </div>
+            </div></div>
+            {horoscope[0].color ? <HoroscopeReading horoscope={horoscope}/> : <p></p>}
+            <div className="all-zodiac-buttons">
             <div className="zodiac-button">
                 <button onClick={() => horoscopeCall("leo")}><img src={leo} alt="zodiac"/><p className="dates">Jul 23<br></br>-<br></br>Aug 22</p></button>
             </div>
@@ -66,7 +68,7 @@ export default function Horoscope() {
                 <button onClick={() => horoscopeCall("capricorn")}><img src={capricorn} alt="zodiac"/><p className="dates">Dec 22<br></br>-<br></br>Jan 19</p></button>
             </div>
             </div>
-            {horoscope[0].color ? <HoroscopeReading horoscope={horoscope}/> : <p></p>}
+            
         </div>
     )
 }
