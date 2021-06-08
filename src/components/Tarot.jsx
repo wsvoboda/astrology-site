@@ -2,6 +2,7 @@ import React from 'react'
 import {useSelector, useDispatch} from "react-redux"
 import {getTarotCards} from "../actions/tarot-actions"
 import TarotReading from "../components/TarotReading"
+import cardgif from "../assets/shuffle.gif"
 import "../App.css"
 
 export default function Tarot() {
@@ -18,10 +19,9 @@ export default function Tarot() {
     
     return (
         <div>
-            <h1>Tarot Card Reader</h1>
-            <h2>Deal</h2>
+            <h1>Tarot Card Reading</h1>
+            {tarot.length > 1 ? <TarotReading deal={tarot}/> : <div><h2>Think of a question you want answered</h2><h3>Shuffling...</h3><img src={cardgif} alt="shuffling"/></div>}
             <button onClick={()=> dealCards()}>Deal Cards</button>
-            {tarot.length > 1 ? <TarotReading deal={tarot}/> : <p></p>}
         </div>
     )
 }
