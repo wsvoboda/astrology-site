@@ -25,7 +25,7 @@ export default function Navbar() {
     return (
         <div>
         <Router>
-      <Button aria-controls="fade-menu" aria-haspopup="true" onClick={handleClick}>
+      <Button id="menu-button" aria-controls="fade-menu" aria-haspopup="true" onClick={handleClick}>
         Open Menu
       </Button>
       <Menu
