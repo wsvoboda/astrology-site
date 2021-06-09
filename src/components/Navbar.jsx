@@ -6,21 +6,33 @@ import Tarot from "./Tarot"
 import Error from "./ErrorPage"
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "../App.css"
+import {GiStarProminences} from "react-icons/gi"
+import {WiMoonAltWaningCrescent4} from "react-icons/wi"
+import {GiCrystalBall} from "react-icons/gi"
 
 
 export default function Navbar() {
    
     return (
         <div>
-          
         <Router>
-          <div className="menu">
-          <div id="menu-items">     
-        <Link to="/">About</Link>
-        <Link to="/horoscope">Horoscope</Link>
-        <Link to="/moonphases">Moon Phases</Link>
-        <Link to="/tarot">Tarot Card Reader</Link>
-        </div></div>
+        <div className="menu"> 
+        <div id="menu-items"> 
+          <Link to="/horoscope">
+            <div class="link-with-pic"><GiStarProminences/>Horoscope</div>
+            </Link>
+            </div>
+        <div id="menu-items">
+          <Link to="/moonphases">
+            <div class="link-with-pic"><WiMoonAltWaningCrescent4/>Moon Phases</div>
+            </Link>
+          </div>
+          <div id="menu-items">
+        <Link to="/tarot">
+          <div class="link-with-pic"><GiCrystalBall/>Tarot Card Reader</div>
+          </Link>
+        </div>
+        </div>
       <Switch>
                     <Route exact path="/" component={About} />
                     <Route exact path="/horoscope" component={Horoscope} />
