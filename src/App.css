@@ -150,17 +150,31 @@ html {
   text-align: left;
 }
 
+.info {
+  margin: 0 100px;
+  text-align: justify;
+}
+
 .info-box {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 50px 100px;
+}
+
+.middle-info-box {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin: 100px;
 }
 
 .title-and-info {
   display: flex;
   flex-direction: column;
-  width: 40rem;
+  width: 30rem;
   align-items: center;
+  text-align: justify;
 }
 
 #zodiac-wheel {
@@ -178,14 +192,14 @@ html {
   width: 220px;
 }
 
-.button-div {
+.image-div {
   display: flex;
   align-items: center;
   justify-content: right;
   margin: auto;
 }
 
-.button-div button {
+.title-and-info button {
   border: none;
   background-color: #fca7a5;
   padding: 0.5rem;
