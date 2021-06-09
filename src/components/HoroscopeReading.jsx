@@ -8,6 +8,10 @@ const useStyles = makeStyles({
   root: {
     minWidth: 275,
     maxWidth: 800,
+    fontFamily: "Cuprum",
+  },
+  inner: {
+    fontFamily: "Cuprum",
   },
   bullet: {
     display: 'inline-block',
@@ -16,10 +20,12 @@ const useStyles = makeStyles({
   },
   title: {
     fontSize: 18,
+    fontFamily: "Cuprum",
   },
   pos: {
     marginBottom: 12,
     marginTop: 10,
+    fontFamily: "Cuprum",
   },
 });
 
@@ -35,7 +41,7 @@ export default function HoroscopeReading({horoscope}) {
         <Typography className={classes.title} color="textSecondary" gutterBottom>
         Today's {upperCasedSignName} Horoscope
         </Typography>
-        <Typography variant="h5" component="h2">
+        <Typography variant="h5" component="h2" className={classes.inner}>
         {horoscope[0].description}
         </Typography>
         <Typography className={classes.pos} color="textSecondary">
