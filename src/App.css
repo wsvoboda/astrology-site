@@ -6,6 +6,8 @@ html {
   background-color: #130329;
   color: white;
   min-height: 100vh;
+  font-family: "Cuprum";
+  font-size: larger;
 }
 
 .menu a {
@@ -51,6 +53,7 @@ html {
 .horoscope button {
   background-color: transparent;
   border: none;
+  font-family: "Cuprum";
 }
 
 .zodiac-button {
@@ -58,17 +61,20 @@ html {
   height: 120px;
   width: 100px;
   margin: 10px;
+  font-family: "Cuprum";
 }
 
 .dates {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 13%;
   right: 0;
   align-items: center;
   color: #fff;
   visibility: hidden;
   opacity: 0;
+  font-family: "Cuprum";
+  font-size: 16px;
   transition: opacity 0.2s, visibility 0.2s;
 }
 
@@ -86,13 +92,15 @@ html {
 
 .dates-sag {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 15%;
   right: 0;
   align-items: center;
   color: #fff;
   visibility: hidden;
   opacity: 0;
+  font-family: "Cuprum";
+  font-size: 16px;
   transition: opacity 0.2s, visibility 0.2s;
 }
 
@@ -106,6 +114,7 @@ html {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  font-family: "Cuprum";
 }
 
 .dealt-cards {
@@ -182,4 +191,6 @@ html {
   padding: 0.5rem;
   border-radius: 3px;
   color: #130329;
+  font-family: "Cuprum";
+  font-size: 16px;
 }

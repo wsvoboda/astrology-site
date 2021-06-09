@@ -6,6 +6,7 @@ import { createStore, applyMiddleware } from "redux";
 import { Provider } from "react-redux";
 import rootReducer from "./reducers/rootReducer";
 import logger from "redux-logger";
+import "./fonts/Cuprum.ttf";
 
 const store = createStore(rootReducer, applyMiddleware(logger));
 

@@ -22,14 +22,19 @@ const useStyles = makeStyles((theme) => ({
     root: {
       width: '50%',
     },
+    inner: {
+      fontFamily: "Cuprum"
+    }, 
     heading: {
       fontSize: theme.typography.pxToRem(15),
       flexBasis: '33.33%',
       flexShrink: 0,
+      fontFamily: "Cuprum"
     },
     secondaryHeading: {
       fontSize: theme.typography.pxToRem(15),
       color: theme.palette.text.secondary,
+      fontFamily: "Cuprum"
     },
   }));
 
@@ -116,7 +121,7 @@ export default function MoonPhases() {
           <Typography className={classes.secondaryHeading}>New Beginnings</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className={classes.inner}>
           This is where it all begins. This is the best time to acknowledge goals. Write a to do list! Bring ideas to consciousness. BUT! Wait until the First Quarter Moon Phase to take action.
           </Typography>
         </AccordionDetails>
@@ -133,7 +138,7 @@ export default function MoonPhases() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className={classes.inner}>
           The moon's light is increasing and it's building its form. Gather energies to help you on your way. Bring new things, people, and relationships into your life.
           </Typography>
         </AccordionDetails>
@@ -150,7 +155,7 @@ export default function MoonPhases() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className={classes.inner}>
           Take action on your goals. Focus on accelerating the progress of your projects. Make forward strides. Catch onto the growing power of the moon.
           </Typography>
         </AccordionDetails>
@@ -165,7 +170,7 @@ export default function MoonPhases() {
           <Typography className={classes.secondaryHeading}>The Last Push</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className={classes.inner}>
           There are only three days left before the full moon! Add to what you have been building the last few weeks. The time has almost arrived for fruition and maximum energy.
           </Typography>
         </AccordionDetails>
@@ -179,7 +184,7 @@ export default function MoonPhases() {
           <Typography className={classes.secondaryHeading}>The Celebration</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className={classes.inner}>
           This is what you've been waiting for. You are naturally accelerated. Energy is flowing! Give thanks to what you have accomplished. Emotions are heightened.
           </Typography>
         </AccordionDetails>
@@ -193,7 +198,7 @@ export default function MoonPhases() {
           <Typography className={classes.secondaryHeading}>Time to Let Go</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className={classes.inner}>
           The moon's light is decreasing.  This is the time to let go, release, retire. Take some time for introspection. Remove things from your life that are no longer serving you. Do not start new projects.
           </Typography>
         </AccordionDetails>
@@ -207,7 +212,7 @@ export default function MoonPhases() {
           <Typography className={classes.secondaryHeading}>Winding Down</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className={classes.inner}>
           Tie up loose ends and file things away from your projects. During this moon phase, you're self-aware and energized to break negative patterns.
           </Typography>
         </AccordionDetails>
@@ -221,7 +226,7 @@ export default function MoonPhases() {
           <Typography className={classes.secondaryHeading}>Relax, Rest, and Retreat</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className={classes.inner}>
           Perfect time to meditate, contemplate, and wind down. Let go and look inward. This is the best time to schedule major operations, waxing, or hair removal. There will be less blood loss and recuperation will be supported by the upcoming waxing moon.
           </Typography>
         </AccordionDetails>

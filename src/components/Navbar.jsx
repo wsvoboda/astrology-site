@@ -11,12 +11,17 @@ import {WiMoonAltWaningCrescent4} from "react-icons/wi"
 import {GiCrystalBall} from "react-icons/gi"
 
 
+
 export default function Navbar() {
    
     return (
         <div>
         <Router>
+          
         <div className="menu"> 
+        {/* <div className="logo-div">
+          <Link to="/">MoonSunStars</Link>
+          </div> */}
         <div id="menu-items"> 
           <Link to="/horoscope">
             <div class="link-with-pic"><GiStarProminences/>Horoscope</div>
