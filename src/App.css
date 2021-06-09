@@ -11,6 +11,12 @@
   width: 150px;
 }
 
+.horoscope {
+  background-color: plum;
+  border-radius: 10px;
+  margin: 1rem;
+}
+
 .horoscope img {
   height: 120px;
   width: 100px;
@@ -112,4 +118,42 @@
   display: flex;
   justify-content: center;
   text-align: left;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: plum;
+  border-radius: 10px;
+  margin: 1rem;
+}
+
+.title-and-info {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  align-items: center;
+}
+
+#zodiac-wheel {
+  height: 220px;
+  width: 220px;
+}
+
+#tarot-cards {
+  height: 220px;
+  width: 350px;
+}
+
+#moon {
+  height: 220px;
+  width: 220px;
+}
+
+.button-div {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin: auto;
 }
