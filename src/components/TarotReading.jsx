@@ -10,10 +10,15 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 const useStyles = makeStyles((theme) => ({
     root: {
       width: '100%',
+      fontFamily: "Cuprum"
+    },
+    inner: {
+      fontFamily: "Cuprum"
     },
     heading: {
       fontSize: theme.typography.pxToRem(15),
       fontWeight: theme.typography.fontWeightRegular,
+      fontFamily: "Cuprum"
     },
   }));
 
@@ -33,7 +38,7 @@ export default function TarotReading({deal}) {
           <Typography className={classes.heading}>Card Meaning</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className={classes.inner}>
           {deal[0].meanings.light.join('. ')}.
           </Typography>
         </AccordionDetails>
@@ -47,7 +52,7 @@ export default function TarotReading({deal}) {
           <Typography className={classes.heading}>Keywords</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className={classes.inner}>
           {deal[0].keywords.join(', ')}
           </Typography>
         </AccordionDetails>
@@ -62,7 +67,7 @@ export default function TarotReading({deal}) {
           <Typography className={classes.heading}>Card Meaning</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className={classes.inner}>
           {deal[1].meanings.light.join('. ')}.
           </Typography>
         </AccordionDetails>
@@ -76,7 +81,7 @@ export default function TarotReading({deal}) {
           <Typography className={classes.heading}>Keywords</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className={classes.inner}>
           {deal[1].keywords.join(', ')}
           </Typography>
         </AccordionDetails>
@@ -90,7 +95,7 @@ export default function TarotReading({deal}) {
           <Typography className={classes.heading}>Fortune Telling</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className={classes.inner}>
           {deal[1].fortune_telling.join('. ')}.
           </Typography>
         </AccordionDetails>
@@ -104,7 +109,7 @@ export default function TarotReading({deal}) {
           <Typography className={classes.heading}>Questions to Ask Yourself</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className={classes.inner}>
           {deal[1].Questions_to_Ask.join(' ')}
           </Typography>
         </AccordionDetails>
@@ -119,7 +124,7 @@ export default function TarotReading({deal}) {
           <Typography className={classes.heading}>Card Meaning</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className={classes.inner}>
           {deal[2].meanings.light.join('. ')}.
           </Typography>
         </AccordionDetails>
@@ -133,7 +138,7 @@ export default function TarotReading({deal}) {
           <Typography className={classes.heading}>Keywords</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className={classes.inner}>
           {deal[2].keywords.join(', ')}
           </Typography>
         </AccordionDetails>
@@ -147,7 +152,7 @@ export default function TarotReading({deal}) {
           <Typography className={classes.heading}>Fortune Telling</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className={classes.inner}>
           {deal[2].fortune_telling.join('. ')}.
           </Typography>
         </AccordionDetails>
