@@ -1,12 +1,22 @@
-.App {
+/* .App {
+  background-image: url(/src/assets/stars.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   text-align: center;
   background-color: #130329;
   color: white;
   min-height: 100vh;
-}
+} */
 
 html {
+  background-image: url(/src/assets/stars.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
   background-color: #130329;
+  color: white;
+  min-height: 100vh;
 }
 
 #menu-button {
@@ -23,7 +33,6 @@ html {
 }
 
 .horoscope {
-  background-color: #5a3e79;
   border-radius: 10px;
   margin: 1rem;
 }
@@ -135,9 +144,6 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #5a3e79;
-  border-radius: 10px;
-  margin: 1rem;
 }
 
 .title-and-info {
@@ -145,7 +151,6 @@ html {
   flex-direction: column;
   width: 40rem;
   align-items: center;
-  color: #fca7a5;
 }
 
 #zodiac-wheel {
@@ -168,4 +173,12 @@ html {
   align-items: center;
   justify-content: right;
   margin: auto;
+}
+
+.button-div button {
+  border: none;
+  background-color: #fca7a5;
+  padding: 0.5rem;
+  border-radius: 3px;
+  color: #130329;
 }
