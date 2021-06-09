@@ -133,6 +133,16 @@ html {
   margin: 20px;
 }
 
+#tarot-button {
+  border: none;
+  background-color: #fca7a5;
+  padding: 0.5rem;
+  border-radius: 3px;
+  color: #130329;
+  font-family: "Cuprum";
+  font-size: 16px;
+}
+
 .moon-forecast {
   display: flex;
   flex-direction: row;
