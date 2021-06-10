@@ -9,6 +9,10 @@ import "../App.css"
 import {GiStarProminences} from "react-icons/gi"
 import {WiMoonAltWaningCrescent4} from "react-icons/wi"
 import {GiCrystalBall} from "react-icons/gi"
+import {RiSunLine} from "react-icons/ri"
+import {CgMoon} from "react-icons/cg"
+import {HiOutlineStar} from "react-icons/hi"
+
 
 
 
@@ -19,9 +23,16 @@ export default function Navbar() {
         <Router>
           
         <div className="menu"> 
-        {/* <div className="logo-div">
-          <Link to="/">MoonSunStars</Link>
-          </div> */}
+        <div className="logo-div">
+          <Link to="/">
+            <div class="link-with-pic">
+              <div className="home-logos"><RiSunLine/><CgMoon/><HiOutlineStar/>
+              </div>
+              MoonSunStars
+              </div>
+              </Link>
+          </div>
+          <div className="right-links">
         <div id="menu-items"> 
           <Link to="/horoscope">
             <div class="link-with-pic"><GiStarProminences/>Horoscope</div>
@@ -36,6 +47,7 @@ export default function Navbar() {
         <Link to="/tarot">
           <div class="link-with-pic"><GiCrystalBall/>Tarot Card Reader</div>
           </Link>
+        </div>
         </div>
         </div>
       <Switch>
