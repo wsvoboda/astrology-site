@@ -39,7 +39,11 @@ export default function TarotReading({deal}) {
     return (
         <div>
             <div className="dealt-cards">
-            <div className="one-card"><h3>The Past</h3><p>{deal[0].name}</p><img src={process.env.PUBLIC_URL + `/cards/${deal[0].img}`}  alt="tarot-card"/><div className={classes.root}>
+            <div className="one-card">
+              <h3>The Past</h3>
+              <p>{deal[0].name}</p>
+              <img src={process.env.PUBLIC_URL + `/cards/${deal[0].img}`}  alt="tarot-card"/>
+            
       <Accordion className={classes.background}>
         <AccordionSummary
           expandIcon={<GiGems className={classes.gems}/>}
@@ -69,7 +73,7 @@ export default function TarotReading({deal}) {
         </AccordionDetails>
       </Accordion>
     </div>
-    </div>
+    
             <div className="one-card"><h3>The Present</h3><p>{deal[1].name}</p><img src={process.env.PUBLIC_URL + `/cards/${deal[1].img}`}  alt="tarot-card"/>
             <Accordion className={classes.background}>
         <AccordionSummary
