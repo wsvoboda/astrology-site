@@ -1,7 +1,9 @@
 html {
-  background-image: url(/src/assets/stars.jpg);
+  background: url(/src/assets/stars.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-repeat: no-repeat;
   text-align: center;
   background-color: #023059;
   color: white;
