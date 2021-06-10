@@ -10,7 +10,10 @@ import {GiGems} from "react-icons/gi"
 const useStyles = makeStyles((theme) => ({
   background: {
     backgroundColor: "transparent",
-    boxShadow: "1px 1px 7px white"
+    boxShadow: "1px 1px 7px white",
+    border: "none",
+    borderTopLeftRadius: "5px",
+    borderTopRightRadius: "5px"
   },
   gems: {
     height: "0.75em",
@@ -38,7 +41,7 @@ export default function TarotReading({deal}) {
 
     return (
         <div>
-            <div className="dealt-cards">
+          <div className="dealt-cards">
             <div className="one-card">
               <h3>The Past</h3>
               <p>{deal[0].name}</p>
@@ -48,8 +51,7 @@ export default function TarotReading({deal}) {
         <AccordionSummary
           expandIcon={<GiGems className={classes.gems}/>}
           aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
+          id="panel1a-header">
           <Typography className={classes.heading}>Card Meaning</Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -58,12 +60,12 @@ export default function TarotReading({deal}) {
           </Typography>
         </AccordionDetails>
       </Accordion>
+
       <Accordion className={classes.background}>
         <AccordionSummary
           expandIcon={<GiGems className={classes.gems}/>}
           aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
+          id="panel2a-header">
           <Typography className={classes.heading}>Keywords</Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -72,15 +74,18 @@ export default function TarotReading({deal}) {
           </Typography>
         </AccordionDetails>
       </Accordion>
-    </div>
+            </div>
     
-            <div className="one-card"><h3>The Present</h3><p>{deal[1].name}</p><img src={process.env.PUBLIC_URL + `/cards/${deal[1].img}`}  alt="tarot-card"/>
+          <div className="one-card">
+            <h3>The Present</h3>
+            <p>{deal[1].name}</p>
+            <img src={process.env.PUBLIC_URL + `/cards/${deal[1].img}`}  alt="tarot-card"/>
+
             <Accordion className={classes.background}>
         <AccordionSummary
           expandIcon={<GiGems className={classes.gems} />}
           aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
+          id="panel1a-header">
           <Typography className={classes.heading}>Card Meaning</Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -89,12 +94,12 @@ export default function TarotReading({deal}) {
           </Typography>
         </AccordionDetails>
       </Accordion>
+
       <Accordion className={classes.background}>
         <AccordionSummary
           expandIcon={<GiGems className={classes.gems} />}
           aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
+          id="panel2a-header">
           <Typography className={classes.heading}>Keywords</Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -103,12 +108,12 @@ export default function TarotReading({deal}) {
           </Typography>
         </AccordionDetails>
       </Accordion>
+
       <Accordion className={classes.background}>
         <AccordionSummary
           expandIcon={<GiGems className={classes.gems} />}
           aria-controls="panel3a-content"
-          id="panel3a-header"
-        >
+          id="panel3a-header">
           <Typography className={classes.heading}>Fortune Telling</Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -117,12 +122,12 @@ export default function TarotReading({deal}) {
           </Typography>
         </AccordionDetails>
       </Accordion>
+
       <Accordion className={classes.background}>
         <AccordionSummary
           expandIcon={<GiGems className={classes.gems}/>}
           aria-controls="panel4a-content"
-          id="panel4a-header"
-        >
+          id="panel4a-header">
           <Typography className={classes.heading}>Questions to Ask Yourself</Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -130,14 +135,18 @@ export default function TarotReading({deal}) {
           {deal[1].Questions_to_Ask.join(' ')}
           </Typography>
         </AccordionDetails>
-      </Accordion></div>
-            <div className="one-card"><h3>The Future</h3><p>{deal[2].name}</p><img src={process.env.PUBLIC_URL + `/cards/${deal[2].img}`}  alt="tarot-card"/>
-            <Accordion className={classes.background}>
+      </Accordion>
+      </div>
+
+        <div className="one-card">
+          <h3>The Future</h3>
+          <p>{deal[2].name}</p>
+          <img src={process.env.PUBLIC_URL + `/cards/${deal[2].img}`}  alt="tarot-card"/>
+        <Accordion className={classes.background}>
         <AccordionSummary
           expandIcon={<GiGems className={classes.gems}/>}
           aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
+          id="panel1a-header">
           <Typography className={classes.heading}>Card Meaning</Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -146,12 +155,12 @@ export default function TarotReading({deal}) {
           </Typography>
         </AccordionDetails>
       </Accordion>
+
       <Accordion className={classes.background}>
         <AccordionSummary
           expandIcon={<GiGems className={classes.gems}/>}
           aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
+          id="panel2a-header">
           <Typography className={classes.heading}>Keywords</Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -160,12 +169,12 @@ export default function TarotReading({deal}) {
           </Typography>
         </AccordionDetails>
       </Accordion>
+
       <Accordion className={classes.background}>
         <AccordionSummary
           expandIcon={<GiGems className={classes.gems}/>}
           aria-controls="panel3a-content"
-          id="panel3a-header"
-        >
+          id="panel3a-header">
           <Typography className={classes.heading}>Fortune Telling</Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -175,7 +184,7 @@ export default function TarotReading({deal}) {
         </AccordionDetails>
       </Accordion>
       </div>
-            </div>
-        </div>
+      </div>
+      </div>
     )
 }

@@ -17,6 +17,12 @@ html {
   margin: 10px;
 }
 
+.link-with-pic:hover {
+  -webkit-box-shadow: 0 4px 6px -6px white;
+  -moz-box-shadow: 0 4px 6px -6px white;
+  box-shadow: 0 4px 6px -6px white;
+}
+
 .link-with-pic {
   display: flex;
   flex-direction: column;
@@ -131,6 +137,7 @@ html {
 .dealt-cards img {
   height: 360px;
   width: 211px;
+  margin-bottom: 0.5rem;
 }
 
 .one-card {
