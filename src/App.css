@@ -56,6 +56,7 @@ html {
   width: 525px;
   height: 525px;
   animation: rotation 25s infinite linear;
+  margin: 50px;
 }
 
 @keyframes rotation {
@@ -192,8 +193,17 @@ html {
 }
 
 .info {
-  margin: 0 100px;
+  display: flex;
+  flex-direction: column;
   text-align: justify;
+  align-items: center;
+  margin: auto;
+  padding: 50px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: row;
 }
 
 .info-box {
@@ -244,7 +254,7 @@ html {
   border: none;
   background-color: #e7b8b2;
   padding: 0.5rem;
-  border-radius: 3px;
+  border-radius: 16px;
   color: #012340;
   font-family: "Cuprum";
   font-size: 16px;
