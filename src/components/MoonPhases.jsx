@@ -20,22 +20,32 @@ import {WiMoonset} from "react-icons/wi"
 // import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 const useStyles = makeStyles((theme) => ({
+    background: {
+      backgroundColor: "transparent",
+      border: "none",
+      boxShadow: "1px 1px 7px white"
+    },
     root: {
       width: '50%',
     },
     inner: {
-      fontFamily: "Cuprum"
+      fontFamily: "Cuprum",
+      color: "white",
+      textShadow: "2px 2px 10px black",
+      textAlign: "justify"
     }, 
     heading: {
       fontSize: theme.typography.pxToRem(15),
       flexBasis: '33.33%',
       flexShrink: 0,
-      fontFamily: "Cuprum"
+      fontFamily: "Cuprum",
+      color: "white"
     },
     secondaryHeading: {
       fontSize: theme.typography.pxToRem(15),
-      color: theme.palette.text.secondary,
-      fontFamily: "Cuprum"
+      color: "white",
+      fontWeight: "normal",
+      fontFamily: "Cuprum",
     },
   }));
 
@@ -112,9 +122,9 @@ export default function MoonPhases() {
             <h1>What the Phases Mean</h1>
             <div className="definitions-accordian">
             <div className={classes.root}>
-      <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
-        <AccordionSummary
-          expandIcon={<WiMoonset />}
+      <Accordion className={classes.background} expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+        <AccordionSummary 
+          expandIcon={<WiMoonset className={classes.inner} />}
           aria-controls="panel1bh-content"
           id="panel1bh-header"
         >
@@ -126,10 +136,10 @@ export default function MoonPhases() {
           This is where it all begins. This is the best time to acknowledge goals. Write a to do list! Bring ideas to consciousness. BUT! Wait until the First Quarter Moon Phase to take action.
           </Typography>
         </AccordionDetails>
-      </Accordion>
-      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+      </Accordion >
+      <Accordion className={classes.background} expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <AccordionSummary
-          expandIcon={<WiMoonset />}
+          expandIcon={<WiMoonset className={classes.inner} />}
           aria-controls="panel2bh-content"
           id="panel2bh-header"
         >
@@ -144,9 +154,9 @@ export default function MoonPhases() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
+      <Accordion className={classes.background} expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
         <AccordionSummary
-          expandIcon={<WiMoonset />}
+          expandIcon={<WiMoonset className={classes.inner} />}
           aria-controls="panel3bh-content"
           id="panel3bh-header"
         >
@@ -161,9 +171,9 @@ export default function MoonPhases() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
+      <Accordion className={classes.background} expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
         <AccordionSummary
-          expandIcon={<WiMoonset />}
+          expandIcon={<WiMoonset className={classes.inner} />}
           aria-controls="panel4bh-content"
           id="panel4bh-header"
         >
@@ -175,9 +185,9 @@ export default function MoonPhases() {
           There are only three days left before the full moon! Add to what you have been building the last few weeks. The time has almost arrived for fruition and maximum energy.
           </Typography>
         </AccordionDetails>
-      </Accordion><Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
+      </Accordion><Accordion className={classes.background} expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
         <AccordionSummary
-          expandIcon={<WiMoonset />}
+          expandIcon={<WiMoonset className={classes.inner} />}
           aria-controls="panel5bh-content"
           id="panel5bh-header"
         >
@@ -189,9 +199,9 @@ export default function MoonPhases() {
           This is what you've been waiting for. You are naturally accelerated. Energy is flowing! Give thanks to what you have accomplished. Emotions are heightened.
           </Typography>
         </AccordionDetails>
-      </Accordion><Accordion expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
+      </Accordion><Accordion className={classes.background} expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
         <AccordionSummary
-          expandIcon={<WiMoonset />}
+          expandIcon={<WiMoonset className={classes.inner} />}
           aria-controls="panel6bh-content"
           id="panel6bh-header"
         >
@@ -203,9 +213,9 @@ export default function MoonPhases() {
           The moon's light is decreasing.  This is the time to let go, release, retire. Take some time for introspection. Remove things from your life that are no longer serving you. Do not start new projects.
           </Typography>
         </AccordionDetails>
-      </Accordion><Accordion expanded={expanded === 'panel7'} onChange={handleChange('panel7')}>
+      </Accordion><Accordion className={classes.background} expanded={expanded === 'panel7'} onChange={handleChange('panel7')}>
         <AccordionSummary
-          expandIcon={<WiMoonset />}
+          expandIcon={<WiMoonset className={classes.inner} />}
           aria-controls="panel7bh-content"
           id="panel7bh-header"
         >
@@ -217,9 +227,9 @@ export default function MoonPhases() {
           Tie up loose ends and file things away from your projects. During this moon phase, you're self-aware and energized to break negative patterns.
           </Typography>
         </AccordionDetails>
-      </Accordion><Accordion expanded={expanded === 'panel8'} onChange={handleChange('panel8')}>
+      </Accordion><Accordion className={classes.background} expanded={expanded === 'panel8'} onChange={handleChange('panel8')}>
         <AccordionSummary
-          expandIcon={<WiMoonset />}
+          expandIcon={<WiMoonset className={classes.inner} />}
           aria-controls="panel8bh-content"
           id="panel8bh-header"
         >
