@@ -21,8 +21,35 @@ export default function Navbar() {
     return (
         <div>
         <Router>
-          
         <div className="menu"> 
+        <div className="logo-div">
+          <Link to="/">
+            <div class="link-with-pic">
+              <div className="home-logos"><CgMoon/><RiSunLine/><HiOutlineStar/>
+              </div>
+              MoonSunStars
+              </div>
+              </Link>
+          </div>
+          <div className="right-links">
+        <div id="menu-items"> 
+          <Link to="/horoscope">
+            <div class="link-with-pic"><GiStarProminences/>Horoscope</div>
+            </Link>
+            </div>
+        <div id="menu-items">
+          <Link to="/moonphases">
+            <div class="link-with-pic"><WiMoonAltWaningCrescent4/>Moon Phases</div>
+            </Link>
+          </div>
+          <div id="menu-items">
+        <Link to="/tarot">
+          <div class="link-with-pic"><GiCrystalBall/>Tarot Card Reader</div>
+          </Link>
+        </div>
+        </div>
+        </div>
+        <div className="menu-mobile"> 
         <div className="logo-div">
           <Link to="/">
             <div class="link-with-pic">

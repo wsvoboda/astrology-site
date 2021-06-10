@@ -352,4 +352,9 @@ h1 {
   .buttons {
     margin-bottom: 10%;
   }
+
+  .menu {
+    visibility: hidden;
+    height: 0;
+  }
 }
