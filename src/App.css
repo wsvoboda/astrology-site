@@ -381,3 +381,86 @@ h1 {
     color: #e7b8b2;
   }
 }
+
+@media only screen and (max-width: 1100px) {
+  .dealt-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .one-card {
+    width: 90%;
+    margin: auto;
+  }
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #constellations {
+    width: 450px;
+    height: 450px;
+    animation: rotation 25s infinite linear;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .info h1 {
+    text-align: center;
+    margin: 0 20%;
+  }
+
+  .info-box {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+  }
+
+  .middle-info-box {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+  }
+
+  .image-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .buttons {
+    margin: 10%;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu-mobile {
+    visibility: visible;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: larger;
+  }
+
+  .menu-mobile a {
+    text-decoration: none;
+    color: #e7b8b2;
+  }
+}
