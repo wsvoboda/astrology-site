@@ -17,7 +17,6 @@ import AccordionDetails from '@material-ui/core/AccordionDetails';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
 import Typography from '@material-ui/core/Typography';
 import {WiMoonset} from "react-icons/wi"
-// import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 const useStyles = makeStyles((theme) => ({
     background: {
@@ -27,6 +26,9 @@ const useStyles = makeStyles((theme) => ({
     },
     root: {
       width: '50%',
+      [theme.breakpoints.between('xs', 'sm')]: {
+        width: '90%',
+      },
     },
     inner: {
       fontFamily: "Cuprum",
@@ -46,6 +48,9 @@ const useStyles = makeStyles((theme) => ({
       color: "white",
       fontWeight: "normal",
       fontFamily: "Cuprum",
+      [theme.breakpoints.between('xs', 'sm')]: {
+        fontSize: 16,
+      },
     },
   }));
 
