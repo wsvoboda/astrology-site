@@ -3,7 +3,7 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  background-color: #130329;
+  background-color: #023059;
   color: white;
   min-height: 100vh;
   font-family: "Cuprum";
@@ -292,5 +292,64 @@ h1 {
   .one-card {
     width: 100%;
     margin: auto;
+  }
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #constellations {
+    width: 265px;
+    height: 265px;
+    animation: rotation 25s infinite linear;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .info h1 {
+    text-align: center;
+    margin: 0 20%;
+  }
+
+  .title-and-info p {
+    text-align: justify;
+    padding: 0 25%;
+    justify-content: center;
+  }
+
+  .info-box {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+  }
+
+  .middle-info-box {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+  }
+
+  .image-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .buttons {
+    margin-bottom: 10%;
   }
 }

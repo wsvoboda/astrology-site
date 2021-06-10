@@ -10,13 +10,14 @@ const useStyles = makeStyles({
     maxWidth: 800,
     fontFamily: "Cuprum",
     backgroundColor: "transparent",
-    textShadow: "2px 2px 10px black",
+    textShadow: "2px 2px 20px black",
     border: "none",
     boxShadow: "none",
   },
   inner: {
     fontFamily: "Cuprum",
     color: "white",
+    textShadow: "2px 2px 20px black",
   },
   bullet: {
     display: 'inline-block',
