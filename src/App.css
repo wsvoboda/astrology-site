@@ -79,7 +79,6 @@ html {
 .horoscope button {
   background-color: transparent;
   border: none;
-  font-family: "Cuprum";
 }
 
 .zodiac-button {
@@ -160,16 +159,6 @@ html {
   margin: 20px;
 }
 
-#tarot-button {
-  border: none;
-  background-color: #e7b8b2;
-  padding: 0.5rem;
-  border-radius: 3px;
-  color: #012340;
-  font-family: "Cuprum";
-  font-size: 16px;
-}
-
 .moon-forecast {
   display: flex;
   flex-direction: row;
@@ -236,7 +225,7 @@ html {
   margin: auto;
 }
 
-.title-and-info button {
+.buttons {
   border: none;
   background-color: #e7b8b2;
   padding: 0.5rem;
@@ -244,4 +233,9 @@ html {
   color: #012340;
   font-family: "Cuprum";
   font-size: 16px;
+}
+
+.buttons:hover {
+  box-shadow: 2px 2px 5px white;
+  color: white;
 }

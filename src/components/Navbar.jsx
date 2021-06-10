@@ -26,7 +26,7 @@ export default function Navbar() {
         <div className="logo-div">
           <Link to="/">
             <div class="link-with-pic">
-              <div className="home-logos"><RiSunLine/><CgMoon/><HiOutlineStar/>
+              <div className="home-logos"><CgMoon/><RiSunLine/><HiOutlineStar/>
               </div>
               MoonSunStars
               </div>

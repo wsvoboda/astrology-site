@@ -17,7 +17,7 @@ export default function About() {
             <h1>Horoscope</h1>
             <p>A horoscope uses an astrological chart calculated from the planetary positions. The calculations are based on the date, place and time of birth. That is why horoscopes are extremely personal, like a fingerprint.</p>
             <Link to={"/horoscope"}>
-            <button>See Today's Horoscope</button>
+            <button className="buttons">See Today's Horoscope</button>
             </Link>
             </div>
             <div className="image-div">
@@ -27,7 +27,7 @@ export default function About() {
             <div className="title-and-info">
             <h1>Moon Phases</h1>
             <p>The phase the moon is in has a huge influence on your life, mindset, and mood. Working with the moon can strengthen our natural instincts.</p><Link to={"/moonphases"}>
-            <button>See Current Moon Phase</button>
+            <button className="buttons">See Current Moon Phase</button>
             </Link></div>
             <div className="image-div">
             <img id="moon" src={moon} alt="moon" />
@@ -37,7 +37,7 @@ export default function About() {
             <h1>Tarot Cards</h1>
             
             <p>Tarot cards are used for divination and can give insight into your past, present, and future. A reading can offer a different perspective to a difficult situation or question you may have. We provide a three-card reading.</p><Link to={"/tarot"}>
-            <button>Get a Reading</button>
+            <button className="buttons">Get a Reading</button>
             </Link></div>
             <div className="image-div"><img id="tarot-cards" src={cards} alt="tarot-cards" />
             </div></div>
