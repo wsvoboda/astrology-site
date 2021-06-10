@@ -176,6 +176,13 @@ html {
   justify-content: center;
 }
 
+.top-zodiac-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .dealt-cards {
   display: flex;
   flex-direction: row;
