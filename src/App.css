@@ -219,6 +219,10 @@ html {
   padding: 50px;
 }
 
+.definition {
+  text-align: center;
+}
+
 .info-container {
   display: flex;
   flex-direction: row;
@@ -324,12 +328,6 @@ h1 {
   .info h1 {
     text-align: center;
     margin: 0 20%;
-  }
-
-  .title-and-info p {
-    text-align: justify;
-    padding: 0 25%;
-    justify-content: center;
   }
 
   .info-box {
