@@ -52,6 +52,21 @@ html {
   margin: 10px;
 }
 
+#constellations {
+  width: 525px;
+  height: 525px;
+  animation: rotation 25s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 .moon img {
   height: 125px;
   width: 125px;

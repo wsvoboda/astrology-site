@@ -4,13 +4,15 @@ import "../App.css"
 import zodiac from "../assets/zodiac.png"
 import moon from "../assets/moon.png"
 import cards from "../assets/tarot-cards.png"
+import horoscope from "../assets/horoscope.png"
 
 export default function About() {
     return (
         <div>
             <h1>As·trol·o·gy · /əˈsträləjē/</h1>
-            <div className="info">
             <p>noun: the study of the movements and relative positions of celestial bodies interpreted as having an influence on human affairs and the natural world</p>
+            <img id="constellations" src={horoscope} alt="constellations"/>
+            <div className="info">
             <p>For centuries, humans have looked to the heavens for guidance. Astrology can be used as a powerful and fun tool for understanding ourselves, others, and the world around us. This site provides guidance in three different areas: Horoscope, Moon Phases, and Tarot Card Reading.</p></div>
             <div className="info-box">
             <div className="title-and-info">
