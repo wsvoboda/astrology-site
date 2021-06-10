@@ -55,7 +55,6 @@ export default function Navbar() {
             <div class="link-with-pic">
               <div className="home-logos"><CgMoon/><RiSunLine/><HiOutlineStar/>
               </div>
-              MoonSunStars
               </div>
               </Link>
           </div>
