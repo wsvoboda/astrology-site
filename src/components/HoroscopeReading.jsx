@@ -9,9 +9,14 @@ const useStyles = makeStyles({
     minWidth: 275,
     maxWidth: 800,
     fontFamily: "Cuprum",
+    backgroundColor: "transparent",
+    textShadow: "2px 2px 10px black",
+    border: "none",
+    boxShadow: "none",
   },
   inner: {
     fontFamily: "Cuprum",
+    color: "white",
   },
   bullet: {
     display: 'inline-block',
@@ -21,11 +26,13 @@ const useStyles = makeStyles({
   title: {
     fontSize: 18,
     fontFamily: "Cuprum",
+    color: "white",
+    marginTop: 6,
   },
   pos: {
-    marginBottom: 12,
     marginTop: 10,
     fontFamily: "Cuprum",
+    color: "white",
   },
 });
 
@@ -36,7 +43,7 @@ export default function HoroscopeReading({horoscope}) {
     let upperCasedSignName = signName.charAt(0).toUpperCase() + signName.slice(1)
     return (
         <div>
-      <Card className={classes.root} variant="outlined">
+      <Card className={classes.root} >
       <CardContent>
         <Typography className={classes.title} color="textSecondary" gutterBottom>
         Today's {upperCasedSignName} Horoscope
