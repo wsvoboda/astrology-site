@@ -62,17 +62,17 @@ export default function Navbar() {
           <div className="right-links">
         <div id="menu-items"> 
           <Link to="/horoscope">
-            <div class="link-with-pic"><GiStarProminences/>Horoscope</div>
+            <div class="link-with-pic"><GiStarProminences/></div>
             </Link>
             </div>
         <div id="menu-items">
           <Link to="/moonphases">
-            <div class="link-with-pic"><WiMoonAltWaningCrescent4/>Moon Phases</div>
+            <div class="link-with-pic"><WiMoonAltWaningCrescent4/></div>
             </Link>
           </div>
           <div id="menu-items">
         <Link to="/tarot">
-          <div class="link-with-pic"><GiCrystalBall/>Tarot Card Reader</div>
+          <div class="link-with-pic"><GiCrystalBall/></div>
           </Link>
         </div>
         </div>

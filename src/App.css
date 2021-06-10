@@ -34,6 +34,10 @@ html {
   font-size: larger;
 }
 
+.menu-mobile {
+  display: none;
+}
+
 .menu a {
   text-decoration: none;
   color: #e7b8b2;
@@ -354,7 +358,19 @@ h1 {
   }
 
   .menu {
-    visibility: hidden;
-    height: 0;
+    display: none;
+  }
+
+  .menu-mobile {
+    visibility: visible;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: larger;
+  }
+
+  .menu-mobile a {
+    text-decoration: none;
+    color: #e7b8b2;
   }
 }
