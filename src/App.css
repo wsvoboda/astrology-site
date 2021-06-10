@@ -162,10 +162,10 @@ html {
 
 #tarot-button {
   border: none;
-  background-color: #fca7a5;
+  background-color: #e7b8b2;
   padding: 0.5rem;
   border-radius: 3px;
-  color: #130329;
+  color: #012340;
   font-family: "Cuprum";
   font-size: 16px;
 }
@@ -238,10 +238,10 @@ html {
 
 .title-and-info button {
   border: none;
-  background-color: #fca7a5;
+  background-color: #e7b8b2;
   padding: 0.5rem;
   border-radius: 3px;
-  color: #130329;
+  color: #012340;
   font-family: "Cuprum";
   font-size: 16px;
 }
