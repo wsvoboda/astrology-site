@@ -121,7 +121,7 @@ export default function MoonPhases() {
             )}</div>
             <h1>What the Phases Mean</h1>
             <div className="definitions-accordian">
-            <div className={classes.root}>
+            <div className={classes.root} >
       <Accordion className={classes.background} expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary 
           expandIcon={<WiMoonset className={classes.inner} />}
