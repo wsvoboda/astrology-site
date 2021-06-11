@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: "1px 1px 7px white",
     border: "none",
     borderTopLeftRadius: "5px",
-    borderTopRightRadius: "5px"
+    borderTopRightRadius: "5px",
   },
   gems: {
     height: "0.75em",
@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
     color: "white"
   },
     root: {
-      width: '100%',
+      width: '90%',
       fontFamily: "Cuprum"
     },
     inner: {

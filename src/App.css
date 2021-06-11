@@ -307,7 +307,7 @@ h1 {
     justify-content: center;
   }
   .one-card {
-    width: 100%;
+    width: 90%;
     margin: auto;
   }
   .info-container {
@@ -318,8 +318,8 @@ h1 {
   }
 
   #constellations {
-    width: 265px;
-    height: 265px;
+    width: 300px;
+    height: 300px;
     animation: rotation 25s infinite linear;
   }
 
@@ -382,7 +382,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (min-width: 800px) and (max-width: 1100px) {
   .dealt-cards {
     display: flex;
     flex-direction: row;
@@ -390,7 +390,7 @@ h1 {
     justify-content: center;
   }
   .one-card {
-    width: 90%;
+    width: 70%;
     margin: auto;
   }
   .info-container {
@@ -401,8 +401,8 @@ h1 {
   }
 
   #constellations {
-    width: 450px;
-    height: 450px;
+    width: 350px;
+    height: 350px;
     animation: rotation 25s infinite linear;
   }
 
