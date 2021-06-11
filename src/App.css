@@ -239,7 +239,7 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 50px 100px;
+  margin: 100px;
 }
 
 .middle-info-box {
