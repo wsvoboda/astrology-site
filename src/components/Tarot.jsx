@@ -11,6 +11,7 @@ export default function Tarot() {
 
     const dealCards = async () => {
         const response = await fetch("tarot-images.json")
+        console.log(response)
         const parsedData = await response.json();
         let shuffledCards = parsedData.cards.sort(()=>Math.random() - 0.5)
         let dealtCards = shuffledCards.slice(0, 3)
