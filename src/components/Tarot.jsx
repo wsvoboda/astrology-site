@@ -4,16 +4,14 @@ import {getTarotCards} from "../actions/tarot-actions"
 import TarotReading from "../components/TarotReading"
 import cardgif from "../assets/shuffle.gif"
 import "../App.css"
+import tarotJson from "../assets/tarot-images.json"
 
 export default function Tarot() {
     const dispatch = useDispatch()
     const tarot = useSelector(state=>state.tarot)
 
-    const dealCards = async () => {
-        const response = await fetch("%PUBLIC_URL%/tarot-images.json")
-        console.log(response)
-        const parsedData = await response.json();
-        let shuffledCards = parsedData.cards.sort(()=>Math.random() - 0.5)
+    const dealCards = () => {
+        let shuffledCards = tarotJson.cards.sort(()=>Math.random() - 0.5)
         let dealtCards = shuffledCards.slice(0, 3)
         getTarotCards(dispatch, dealtCards)
     }
