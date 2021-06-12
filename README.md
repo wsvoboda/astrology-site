@@ -37,6 +37,6 @@ The user receives 3 dealt cards. The first represents their present, the second 
 
 - React
 - Redux
-- RESTful APIs ((horoscope)[https://github.com/sameerkumar18/aztro], (moon phases)[https://www.visualcrossing.com/resources/documentation/weather-api/how-to-include-sunrise-sunset-and-moon-phase-data-into-your-api-requests/])
+- RESTful APIs ([horoscope](https://github.com/sameerkumar18/aztro), [moon phases](https://www.visualcrossing.com/resources/documentation/weather-api/how-to-include-sunrise-sunset-and-moon-phase-data-into-your-api-requests/))
 - HTML
 - CSS
