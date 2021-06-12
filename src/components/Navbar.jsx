@@ -23,7 +23,7 @@ export default function Navbar() {
         <Router>
         <div className="menu"> 
         <div className="logo-div">
-          <Link to="/astrology-site">
+          <Link to="/moonsunstars">
             <div class="link-with-pic">
               <div className="home-logos"><CgMoon/><RiSunLine/><HiOutlineStar/>
               </div>
@@ -51,7 +51,7 @@ export default function Navbar() {
         </div>
         <div className="menu-mobile"> 
         <div className="logo-div">
-          <Link to="/">
+          <Link to="/moonsunstars">
             <div class="link-with-pic">
               <div className="home-logos"><CgMoon/><RiSunLine/><HiOutlineStar/>
               </div>
@@ -77,7 +77,7 @@ export default function Navbar() {
         </div>
         </div>
       <Switch>
-                    <Route exact path="/astrology-site" component={About} />
+                    <Route exact path="/moonsunstars" component={About} />
                     <Route exact path="/horoscope" component={Horoscope} />
                     <Route exact path="/moonphases" component={MoonPhases} />
                     <Route exact path="/tarot" component={Tarot} />
