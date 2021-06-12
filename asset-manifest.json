@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/astrology-site/static/css/main.70ea9eec.chunk.css",
-    "main.js": "/astrology-site/static/js/main.d1217dc9.chunk.js",
-    "main.js.map": "/astrology-site/static/js/main.d1217dc9.chunk.js.map",
+    "main.js": "/astrology-site/static/js/main.eed2d480.chunk.js",
+    "main.js.map": "/astrology-site/static/js/main.eed2d480.chunk.js.map",
     "runtime-main.js": "/astrology-site/static/js/runtime-main.a788f469.js",
     "runtime-main.js.map": "/astrology-site/static/js/runtime-main.a788f469.js.map",
-    "static/js/2.69eba4c8.chunk.js": "/astrology-site/static/js/2.69eba4c8.chunk.js",
-    "static/js/2.69eba4c8.chunk.js.map": "/astrology-site/static/js/2.69eba4c8.chunk.js.map",
+    "static/js/2.9e5bf1e3.chunk.js": "/astrology-site/static/js/2.9e5bf1e3.chunk.js",
+    "static/js/2.9e5bf1e3.chunk.js.map": "/astrology-site/static/js/2.9e5bf1e3.chunk.js.map",
     "index.html": "/astrology-site/index.html",
     "static/css/main.70ea9eec.chunk.css.map": "/astrology-site/static/css/main.70ea9eec.chunk.css.map",
-    "static/js/2.69eba4c8.chunk.js.LICENSE.txt": "/astrology-site/static/js/2.69eba4c8.chunk.js.LICENSE.txt",
+    "static/js/2.9e5bf1e3.chunk.js.LICENSE.txt": "/astrology-site/static/js/2.9e5bf1e3.chunk.js.LICENSE.txt",
     "static/media/index.css": "/astrology-site/static/media/Cuprum.54d83f5f.ttf",
     "static/media/aquarius.8c471577.png": "/astrology-site/static/media/aquarius.8c471577.png",
     "static/media/aries.4c6746ac.png": "/astrology-site/static/media/aries.4c6746ac.png",
@@ -40,8 +40,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a788f469.js",
-    "static/js/2.69eba4c8.chunk.js",
+    "static/js/2.9e5bf1e3.chunk.js",
     "static/css/main.70ea9eec.chunk.css",
-    "static/js/main.d1217dc9.chunk.js"
+    "static/js/main.eed2d480.chunk.js"
   ]
 }
