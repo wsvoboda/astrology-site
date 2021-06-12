@@ -10,7 +10,7 @@ export default function Tarot() {
     const tarot = useSelector(state=>state.tarot)
 
     const dealCards = async () => {
-        const response = await fetch("tarot-images.json")
+        const response = await fetch("%PUBLIC_URL%/tarot-images.json")
         console.log(response)
         const parsedData = await response.json();
         let shuffledCards = parsedData.cards.sort(()=>Math.random() - 0.5)
