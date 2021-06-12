@@ -32,6 +32,12 @@ The user receives 3 dealt cards. The first represents their present, the second 
 
 ![image](https://user-images.githubusercontent.com/78281930/121786485-a5f02600-cb85-11eb-8ccc-37746de0ff7f.png)
 
+## Mobile Responsive
+
+Every page of this site is also mobile responsive. 
+
+![image](https://user-images.githubusercontent.com/78281930/121786980-edc47c80-cb88-11eb-8b31-6f692b9e4da6.png)
+
 
 ## Technology Used
 
