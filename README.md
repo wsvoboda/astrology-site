@@ -1,6 +1,6 @@
 # MoonSunStars
 
-This site can be found using this [link](https://wsvoboda.github.io/moonsunstars/).
+This site can be experienced using this [link](https://wsvoboda.github.io/moonsunstars/).
 
 MoonSunStars is a site about astrology. It has a homepage and three sections: Horoscope Reading, Moon Phases, and Tarot Card Reading.
 
