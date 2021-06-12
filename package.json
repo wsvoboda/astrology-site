@@ -1,5 +1,7 @@
 {
   "name": "astrology-site",
+  "homepage": "http://wsvoboda.github.io/astrology-site",
+  "private": true,
   "version": "0.1.0",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
