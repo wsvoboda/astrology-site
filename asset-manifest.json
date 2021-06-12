@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/astrology-site/static/css/main.70ea9eec.chunk.css",
-    "main.js": "/astrology-site/static/js/main.32a4d84e.chunk.js",
-    "main.js.map": "/astrology-site/static/js/main.32a4d84e.chunk.js.map",
+    "main.js": "/astrology-site/static/js/main.2b9c47fb.chunk.js",
+    "main.js.map": "/astrology-site/static/js/main.2b9c47fb.chunk.js.map",
     "runtime-main.js": "/astrology-site/static/js/runtime-main.a788f469.js",
     "runtime-main.js.map": "/astrology-site/static/js/runtime-main.a788f469.js.map",
     "static/js/2.69eba4c8.chunk.js": "/astrology-site/static/js/2.69eba4c8.chunk.js",
@@ -42,6 +42,6 @@
     "static/js/runtime-main.a788f469.js",
     "static/js/2.69eba4c8.chunk.js",
     "static/css/main.70ea9eec.chunk.css",
-    "static/js/main.32a4d84e.chunk.js"
+    "static/js/main.2b9c47fb.chunk.js"
   ]
 }
