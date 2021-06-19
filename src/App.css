@@ -106,17 +106,14 @@ html {
   margin: 10px;
 }
 
-.zodiac-button:hover {
-  background-color: #034c8c;
-  padding: 5px 13px 5px 0;
-  border-radius: 10px;
-  transition: opacity 0.2s, visibility 0.2s;
+.cursor-hover {
+  cursor: pointer;
 }
 
 .dates {
   position: absolute;
   top: 10%;
-  left: 0;
+  left: 12%;
   right: 0;
   align-items: center;
   color: #fff;
@@ -141,17 +138,10 @@ html {
   margin: 10px;
 }
 
-.zodiac-button-sag:hover {
-  background-color: #034c8c;
-  padding: 5px 13px 5px 0;
-  border-radius: 10px;
-  transition: opacity 0.2s, visibility 0.2s;
-}
-
 .dates-sag {
   position: absolute;
   top: 10%;
-  left: 8%;
+  left: 15%;
   right: 0;
   align-items: center;
   color: #fff;
