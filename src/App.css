@@ -283,6 +283,7 @@ h1 {
   font-family: "Cuprum";
   font-size: 16px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .buttons:hover {
@@ -352,6 +353,7 @@ h1 {
 
   .buttons {
     margin: 10%;
+    cursor: pointer;
   }
 
   .menu {
@@ -434,6 +436,7 @@ h1 {
   }
 
   .buttons {
+    cursor: pointer;
     margin: 10%;
   }
 
