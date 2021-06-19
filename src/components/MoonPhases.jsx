@@ -187,7 +187,7 @@ export default function MoonPhases() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography className={classes.inner}>
-          There are only three days left before the full moon! Add to what you have been building the last few weeks. The time has almost arrived for fruition and maximum energy.
+          There are only a few days left before the full moon! Add to what you have been building the last few weeks. The time has almost arrived for fruition and maximum energy.
           </Typography>
         </AccordionDetails>
       </Accordion><Accordion className={classes.background} expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
