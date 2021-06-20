@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/moonsunstars/static/css/main.27e9956d.chunk.css",
+    "main.css": "/moonsunstars/static/css/main.cf82e39f.chunk.css",
     "main.js": "/moonsunstars/static/js/main.8a23fa27.chunk.js",
     "main.js.map": "/moonsunstars/static/js/main.8a23fa27.chunk.js.map",
     "runtime-main.js": "/moonsunstars/static/js/runtime-main.a8e4f4eb.js",
@@ -8,7 +8,7 @@
     "static/js/2.af8f0a70.chunk.js": "/moonsunstars/static/js/2.af8f0a70.chunk.js",
     "static/js/2.af8f0a70.chunk.js.map": "/moonsunstars/static/js/2.af8f0a70.chunk.js.map",
     "index.html": "/moonsunstars/index.html",
-    "static/css/main.27e9956d.chunk.css.map": "/moonsunstars/static/css/main.27e9956d.chunk.css.map",
+    "static/css/main.cf82e39f.chunk.css.map": "/moonsunstars/static/css/main.cf82e39f.chunk.css.map",
     "static/js/2.af8f0a70.chunk.js.LICENSE.txt": "/moonsunstars/static/js/2.af8f0a70.chunk.js.LICENSE.txt",
     "static/media/index.css": "/moonsunstars/static/media/Cuprum.54d83f5f.ttf",
     "static/media/aquarius.8c471577.png": "/moonsunstars/static/media/aquarius.8c471577.png",
@@ -41,7 +41,7 @@
   "entrypoints": [
     "static/js/runtime-main.a8e4f4eb.js",
     "static/js/2.af8f0a70.chunk.js",
-    "static/css/main.27e9956d.chunk.css",
+    "static/css/main.cf82e39f.chunk.css",
     "static/js/main.8a23fa27.chunk.js"
   ]
 }
