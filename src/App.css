@@ -292,6 +292,22 @@ h1 {
 }
 
 @media only screen and (max-width: 850px) {
+  .dates {
+    position: absolute;
+    top: 10%;
+    left: 22%;
+    right: 0;
+    align-items: center;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    font-family: "Cuprum";
+    font-size: 16px;
+    font-weight: bold;
+    transition: opacity 0.2s, visibility 0.2s;
+    text-shadow: 5px 5px 10px black;
+  }
+
   .dealt-cards {
     display: flex;
     flex-direction: column;
