@@ -24,7 +24,7 @@ export default function Navbar() {
         <div className="menu"> 
         <div className="logo-div">
           <Link to="/moonsunstars">
-            <div class="link-with-pic">
+            <div className="link-with-pic">
               <div className="home-logos"><CgMoon/><RiSunLine/><HiOutlineStar/>
               </div>
               MoonSunStars
@@ -34,17 +34,17 @@ export default function Navbar() {
           <div className="right-links">
         <div id="menu-items"> 
           <Link to="/horoscope">
-            <div class="link-with-pic"><GiStarProminences/>Horoscope</div>
+            <div className="link-with-pic"><GiStarProminences/>Horoscope</div>
             </Link>
             </div>
         <div id="menu-items">
           <Link to="/moonphases">
-            <div class="link-with-pic"><WiMoonAltWaningCrescent4/>Moon Phases</div>
+            <div className="link-with-pic"><WiMoonAltWaningCrescent4/>Moon Phases</div>
             </Link>
           </div>
           <div id="menu-items">
         <Link to="/tarot">
-          <div class="link-with-pic"><GiCrystalBall/>Tarot Card Reader</div>
+          <div className="link-with-pic"><GiCrystalBall/>Tarot Card Reader</div>
           </Link>
         </div>
         </div>
@@ -52,7 +52,7 @@ export default function Navbar() {
         <div className="menu-mobile"> 
         <div className="logo-div">
           <Link to="/moonsunstars">
-            <div class="link-with-pic">
+            <div className="link-with-pic">
               <div className="home-logos"><CgMoon/><RiSunLine/><HiOutlineStar/>
               </div>
               </div>
@@ -61,17 +61,17 @@ export default function Navbar() {
           <div className="right-links">
         <div id="menu-items"> 
           <Link to="/horoscope">
-            <div class="link-with-pic"><GiStarProminences/></div>
+            <div className="link-with-pic"><GiStarProminences/></div>
             </Link>
             </div>
         <div id="menu-items">
           <Link to="/moonphases">
-            <div class="link-with-pic"><WiMoonAltWaningCrescent4/></div>
+            <div className="link-with-pic"><WiMoonAltWaningCrescent4/></div>
             </Link>
           </div>
           <div id="menu-items">
         <Link to="/tarot">
-          <div class="link-with-pic"><GiCrystalBall/></div>
+          <div className="link-with-pic"><GiCrystalBall/></div>
           </Link>
         </div>
         </div>
