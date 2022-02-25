@@ -169,7 +169,7 @@ export default function MoonPhases() {
         {moonPhases &&
           moonPhases.length > 0 &&
           moonPhases.map((phase, index) => (
-            <div className="one-phase">
+            <div className="one-phase" key={index}>
               {matchPictureWithMoonPhase(`${phase.moonphase}`)}
               <h3>{todayPlus5Days[`${index}`]}</h3>
             </div>
