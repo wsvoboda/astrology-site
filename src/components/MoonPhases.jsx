@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { weatherAPIKey } from "../API.js";
 import { getMoonPhases } from "../actions/moonPhase-actions";
@@ -65,7 +65,7 @@ export default function MoonPhases() {
     getMoonPhases(dispatch, parsedData.days.slice(0, 5));
   };
   const classes = useStyles();
-  const [expanded, setExpanded] = React.useState(false);
+  const [expanded, setExpanded] = useState(false);
 
   const handleChange = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false);
