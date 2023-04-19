@@ -43,5 +43,5 @@ Every page of this site is also mobile responsive.
 
 - React
 - Redux
-- RESTful APIs ([horoscope](https://rapidapi.com/Alejandro99aru/api/horoscope-astrology), [moon phases](https://www.visualcrossing.com/resources/documentation/weather-api/how-to-include-sunrise-sunset-and-moon-phase-data-into-your-api-requests/))
+- RESTful APIs ([zodiac signs](https://rapidapi.com/Alejandro99aru/api/horoscope-astrology), [moon phases](https://www.visualcrossing.com/resources/documentation/weather-api/how-to-include-sunrise-sunset-and-moon-phase-data-into-your-api-requests/))
 - Material UI
