@@ -9,14 +9,14 @@ The user lands on the homepage when first visiting the site. The homepage provid
 
 ![image](https://user-images.githubusercontent.com/78281930/121786011-eac68d80-cb82-11eb-922b-a7b69dfe5297.png)
 
-## Horoscope
-The horoscope page shows all zodiac signs. When the user hovers over a sign, the date range of the sign is displayed. When the user clicks a sign, their horoscope is displayed. 
+## Zodiac Signs
+The Zodiac Sign page shows all zodiac signs. When the user hovers over a sign, the date range of the sign is displayed. When the user clicks a sign, info on their zodiac sign is displayed. 
 
 ![image](https://user-images.githubusercontent.com/78281930/121786134-9cfe5500-cb83-11eb-8cca-26479d76120c.png)
 
 ![image](https://user-images.githubusercontent.com/78281930/121786144-ac7d9e00-cb83-11eb-919f-5fe8914056d7.png)
 
-If the user clicks a different sign, the displayed information is replaced with the new sign's horoscope.
+If the user clicks a different sign, the displayed information is replaced with the new sign.
 
 ## Moon Phases
 The moon phases page shows the current phase of the moon and the moon phases for the next four days. There is a menu below the moon phases that gives information about each moon phase and what to do during each phase.

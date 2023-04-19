@@ -167,7 +167,7 @@ export default function MoonPhases() {
       <h1>Current and Upcoming Moon Phases</h1>
       <div className="moon-forecast">
         {moonPhases &&
-          moonPhases.length > 0 &&
+          moonPhases.length &&
           moonPhases.map((phase, index) => (
             <div className="one-phase" key={index}>
               {matchPictureWithMoonPhase(`${phase.moonphase}`)}

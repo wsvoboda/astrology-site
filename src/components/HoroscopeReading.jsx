@@ -7,7 +7,7 @@ import Typography from "@material-ui/core/Typography";
 const useStyles = makeStyles({
   root: {
     minWidth: 275,
-    maxWidth: 800,
+    maxWidth: 900,
     fontFamily: "Cuprum",
     backgroundColor: "transparent",
     textShadow: "2px 2px 5px black",
@@ -25,7 +25,7 @@ const useStyles = makeStyles({
     transform: "scale(0.8)",
   },
   title: {
-    fontSize: 18,
+    fontSize: 22,
     fontFamily: "Cuprum",
     color: "white",
     marginTop: 6,
@@ -37,39 +37,41 @@ const useStyles = makeStyles({
   },
 });
 
-export default function HoroscopeReading({ horoscope }) {
+const HoroscopeReading = ({ horoscope }) => {
   const classes = useStyles();
   const bull = <span className={classes.bullet}>•</span>;
-  let signName = horoscope[1];
-  let upperCasedSignName = signName.charAt(0).toUpperCase() + signName.slice(1);
+  const signName = horoscope.sign;
+  const upperCasedSignName = signName.charAt(0).toUpperCase() + signName.slice(1);
+  const horoscopeInfo = horoscope.zodiac;
   return (
     <div>
       <Card className={classes.root}>
         <CardContent>
           <Typography
             className={classes.title}
-            color="textSecondary"
             gutterBottom
           >
-            Today's {upperCasedSignName} Horoscope
+            {upperCasedSignName}
           </Typography>
-          <Typography variant="h5" component="h2" className={classes.inner}>
-            {horoscope[0].description}
+          <Typography variant="h6" component="h6" className={classes.inner}>
+            {horoscopeInfo.about}
           </Typography>
-          <Typography className={classes.pos} color="textSecondary">
-            Mood {bull} {horoscope[0].mood}
+          <Typography className={classes.pos}>
+            Strengths {bull} {horoscopeInfo.strengths}
           </Typography>
-          <Typography className={classes.pos} color="textSecondary">
-            Color {bull} {horoscope[0].color}
+          <Typography className={classes.pos}>
+            Ruling Planet {bull} {horoscopeInfo.ruling_planet}
           </Typography>
-          <Typography className={classes.pos} color="textSecondary">
-            Lucky Number {bull} {horoscope[0].lucky_number}
+          <Typography className={classes.pos}>
+            Element {bull} {horoscopeInfo.element}
           </Typography>
-          <Typography className={classes.pos} color="textSecondary">
-            Compatibility {bull} {horoscope[0].compatibility}
+          <Typography className={classes.pos}>
+            Compatibility {bull} {horoscopeInfo.compatibility}
           </Typography>
         </CardContent>
       </Card>
     </div>
   );
 }
+
+export default HoroscopeReading;

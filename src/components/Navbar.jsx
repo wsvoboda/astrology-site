@@ -35,7 +35,7 @@ export default function Navbar() {
               <Link to="/horoscope">
                 <div className="link-with-pic">
                   <GiStarProminences />
-                  Horoscope
+                  Zodiac Signs
                 </div>
               </Link>
             </div>
